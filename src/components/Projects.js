@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../data.js'
 import Project from './Project.js'
 import { Player } from '@lottiefiles/react-lottie-player'
+import '../index.css';
 
 const Projects = () => {
   return (
@@ -24,7 +25,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-    <div className="container-fluid bg-light p-5 min-vh-100 ">
+    <div className="container-fluid projectsDivColour p-5 min-vh-100 ">
       <div className="row">
         {data.ProjectsData.map((project) => {
           return(
@@ -49,7 +50,9 @@ const Projects = () => {
           )
         })}
       </div>
+      
     </div>
+    
     </div>
   )
 }

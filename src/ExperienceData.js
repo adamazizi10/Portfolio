@@ -1,6 +1,5 @@
  
 import Salumatics from "./assets/portfolioImages/Salumatics.png";
-import erindale from "./assets/portfolioImages/erindale.jpg"
 import tetra from "./assets/portfolioImages/tetra.jpg"
  
 const ExperiencesData = [
@@ -14,6 +13,7 @@ const ExperiencesData = [
     location: "Mississauga, Ontario, Canada",
     stack: ["  C#  |  ",".NET  |  ",  "  MS SQL Server | HTML/CSS/JavaScript"],
     live: "https://salumatics.com/",
+    colour: "#005EB8",
     source: "https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Aorganization%3A1491242&keywords=salumatics%20inc.&origin=RICH_QUERY_SUGGESTION&position=0&searchId=76567613-5308-416e-ac49-9fb559fd26c6&sid=JGJ",
     description1: 
     "Developed a highly efficient and maintainable .NET web application used as the primary tool for business sales, by utilizing my expertise in ASP.NET, JS/jquery, HTML, and CSS resulting in a significant 40% increase in sales",
@@ -32,11 +32,12 @@ const ExperiencesData = [
     img: tetra,
     Type: "",
     date: "Oct 2022 - Dec 2022",
-    stack: ["Mobile Development  |  ",  "Object-Oriented Programming | Figma"],
+    stack: ["Mobile Development  |  ",  "Object-Oriented Programming"],
     name: "Tetra",
     location: "Toronto, Ontario, Canada",
     live: "https://tetraryerson.ca/",
     source: "https://www.linkedin.com/company/tetraryerson/mycompany/",
+    colour: "#3edd8e",
     description1: 
     "Developed and launched a mobile application that allows hospital patients to control the positioning of their beds, resulting in a 30% increase in patient satisfaction",
     description2:
@@ -46,7 +47,7 @@ const ExperiencesData = [
     description4:  
     "Incorporated stakeholder feedback throughout the development process, collaborating closely with hospital staff and patients to ensure that the application's functionality aligned with their needs and expectations",
     description5:
-    "Designed and implemented an in-app tutorial feature to guide new users through the application's features, which dramatically decreased support requests" 
+    "Designed and implemented an in-app tutorial feature to guide new users through the application's features" 
 
   },
   

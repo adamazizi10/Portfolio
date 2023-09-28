@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
 import About from './About';
 import Experiences from './Experiences';
 import Projects from './Projects';
 import Contact from './Contact';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-const Home = () => {
+import '../index.css';
 
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+const Home = ({theme}) => {
+ 
   return (
-    <section id='home' className="bg-light p-5 min-vh-100">
+    <section id='home' className="background p-5 min-vh-100">
       <div className='container-fluid mainHome'>
         <div className='d-sm-flex align-items-center justify-content-between'>
           <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
-            <h1 className=''>Hey! I'm Adam Azizi</h1>
+            <h1 className='NameColour'>Hey! I'm Adam Azizi</h1>
             <h1 id='AboutMe' className='fw-bold custom-font'>Software Developer</h1>
           </div>
 
@@ -27,7 +29,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <hr /><br />
+      <hr style={{backgroundColor: theme}} /><br />
       <div className='displayFlexT'>
         <div>
           <Player
@@ -40,11 +42,9 @@ const Home = () => {
         </div>
         <div>
           <h1 className='fw-bold custom-font DescMe DescMe2'>About me</h1>
-          <p className='DescMe'>
-            As a driven and dedicated Computer Software Engineering student at Toronto Metropolitan University, I have gained valuable experience in a range of programming languages, frameworks and technologies. In addition to my technical skills, I have a strong foundation in object-oriented programming languages such as Java, Python, C++ and JavaScript. I am proficient in working with relational databases such as MySQL, PostgreSQL, Oracle Database and Microsoft SQL Server, as well as conducting JUnit and Selenium testing in both Java and Python. I am passionate about utilizing my skills to solve complex problems and create innovative solutions.<br /><br />
-            As a Full Stack Developer, I have successfully applied my knowledge of React.js, Node.js and Express.js to develop functional and aesthetically pleasing websites. In addition, I have completed projects using Python for scripting, web scraping, web development, machine learning and data science, as well as Selenium testing.<br /><br />
-            During my internship at Salumatics, I had the opportunity to contribute to the development of a web application for the company. Working as part of a team, I gained practical experience in agile development methodologies, as well as collaborating with stakeholders to ensure the successful delivery of the project.<br /><br />
-            As a highly adaptable individual, I thrive in dynamic environments and am always eager to learn new technologies and methodologies. In my free time outside of work, I find joy in engaging in sports such as soccer and basketball. Additionally, my passion for soccer drives me to stay well-informed about the sport by following current news and matches. I'm very approachable and easy to talk to so feel free to reach out to me :D<br /><br />
+          <p className='DescMe aboutTextColour'>
+          I am a Computer Software Engineering student at Toronto Metropolitan University with a strong foundation in various programming languages and technologies. My expertise includes Java, Python, C++, and JavaScript, along with proficiency in working with databases like MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server. Additionally, I have gained hands-on experience during my internship at Salumatics, where I contributed to the development of a web application, refining my skills in agile methodologies and stakeholder collaboration. I've also completed diverse projects using React.js, Node.js, Python for scripting, web scraping, web development, machine learning, data science, and testing.<br /><br />
+          I thrive in dynamic environments and am always eager to learn new technologies and methodologies. In my free time outside of work, I find joy in engaging in sports such as soccer and basketball. Additionally, my passion for soccer drives me to stay well-informed about the sport by following current news and matches. I'm very approachable and easy to talk to so feel free to reach out to me.<br /><br />
             <a href='https://www.linkedin.com/in/adamazizi/' target='_blank' rel='noreferrer' style={{ fontSize: '20px', marginRight: '10px' }}>
               <FaLinkedin style={{ color: '#3edd8e' }} />
             </a>
@@ -59,13 +59,13 @@ const Home = () => {
         </div>
       </div>
 
-      <br /><hr id='skills' /><br /><br /><br />
+      <br /><hr id='skills'  style={{backgroundColor: theme}}></hr><br /><br /><br />
       <About />
-      <hr id='experience' />
+      <hr id='experience' style={{backgroundColor: theme}}/>
       <Experiences />
-      <hr id='projects' />
+      <hr id='projects' style={{backgroundColor: theme}}/>
       <Projects />
-      <hr id='contact' />
+      <hr id='contact' style={{backgroundColor: theme}}/>
       <Contact />
     </section>
   )

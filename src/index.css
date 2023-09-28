@@ -38,8 +38,14 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 
+}
+#light {
+  background-color: white;
+}
+
+#dark {
+  background-color: #0F1624;
 }
 
 .custom-btn{
@@ -161,11 +167,34 @@ nav {
   position: fixed;
 }
 
+#light .navColour {
+  background-color: white;
+}
 
+#dark .navColour {
+  background-color: #0F1624;
+}
+
+#dark .NameColour {
+  color: white;
+}
+
+#light .NameColour {
+  color: #212529;
+}
 .link:hover{
   color: #3edd8e;
   /* color: #f58f7d; */
 }
+
+#light .ModeColour {
+  color: #3edd8e;
+}
+
+#dark .ModeColour {
+  color: white;
+}
+
 .active{
   border-bottom-color: #3edd8e;
   /* border-bottom: 3px solid #ec6e59; */
@@ -223,12 +252,45 @@ nav {
   color: grey;
 }
 
+#light .projectsDivColour {
+  background-color: white;
+}
+
+#dark .projectsDivColour {
+  background-color: #0F1624;
+}
+#light .cardBackgroundColour {
+  background-color: #0F1624;
+  color: white;
+}
+
+#dark .cardBackgroundColour {
+  background-color: white;
+}
+
+#light .aboutTextColour {
+  color: #212529;
+}
+
+#dark .aboutTextColour {
+  color: white;
+}
+
+#dark .contactButtons {
+  background-color: #0F1624;
+  box-shadow: 0 5px 17px -5px #aaa;
+}
+
+#light .contactButtons {
+  background-color: white;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
 .containerSM .btnSM {
   display: inline-block;
   width: 90px;
   height: 90px;
   background: #fff;
-  box-shadow: 0 5px 15px -5px #aaa;
   margin: 10px;
   border-radius: 30%;
   overflow: hidden;

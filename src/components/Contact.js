@@ -1,6 +1,7 @@
 import React from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import '../index.css';
 
 const Contact = () => {
 
@@ -10,13 +11,13 @@ const Contact = () => {
         <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
           <h1 className='fw-bold custom-font'>Reach out to me!</h1>
           <div class="containerSM">
-            <a href="https://www.linkedin.com/in/adamazizi/" target="_blank" rel="noreferrer" class="btnSM in">
+            <a href="https://www.linkedin.com/in/adamazizi/" target="_blank" rel="noreferrer" class="btnSM in contactButtons">
               <i id='iTarget'><FaLinkedin /></i>
             </a>
-            <a href="https://github.com/adamazizi10" target="_blank" rel="noreferrer" class="btnSM gh">
+            <a href="https://github.com/adamazizi10" target="_blank" rel="noreferrer" class="btnSM gh contactButtons">
               <i id='iTarget' ><FaGithub /></i>
             </a>
-              <a href="mailto:adamazizi101@gmail.com" class="btnSM en">
+              <a href="mailto:adamazizi101@gmail.com" class="btnSM en contactButtons">
                 <i id='iTarget'><FaEnvelope /></i>
               </a>
           </div>

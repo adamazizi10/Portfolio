@@ -1,7 +1,14 @@
-import React from 'react';
-const Navbar = () => {
+
+import React from "react";
+import '../index.css';
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
+
+import {  FaArrowRight } from 'react-icons/fa';
+
+
+const Navbar = ({ onChange, checked }) => {
   return (
-    <nav className="navStuff bg-light navbar navbar-expand-lg shadow-sm p-4">
+    <nav className="navColour navStuff navbar navbar-expand-lg shadow-sm p-4">
       <div className="container-fluid d-sm-flex flex-column flex-lg-row justify-content-center justify-content-lg-between">
         <div className="navbar-brand mb-4 mb-md-0 mb-lg-0"></div>
         <div>
@@ -9,7 +16,7 @@ const Navbar = () => {
             Home
           </a>
           <a href="#AboutMe" className="link nav-phone">
-            About Me
+            About
           </a>
           <a href="#skills" className="link nav-phone">
             Skills
@@ -23,21 +30,16 @@ const Navbar = () => {
           <a href="#contact" className="link">
             Contact
           </a>
-        </div>
-        <div>
-
-        
-
-        {/* 
-          <a href={resume} download >
-            <button className="btn btn-success ms-lg-4 px-4 resume-btn" type="button">
-               My Resume{' '}
-              <FaArrowCircleDown/>
-            </button>
-          </a>
-
-       */}
-        </div>
+        </div><div></div>
+        <div className='ModeColour' style={{position: "absolute", right: "65px", fontSize: "18px", color: "#3edd8e"}}>Toggle <FaArrowRight style={{color: "#3edd8e"}}/>&nbsp;&nbsp;</div>
+        <DarkModeSwitch
+           style={{position: "absolute", right: "17px", top: "17px"}}
+              checked={checked}
+              onChange={onChange}
+              size={40}
+              sunColor='#3edd8e'
+              moonColor="#3edd8e"
+            />
       </div>
       <style>
         {`

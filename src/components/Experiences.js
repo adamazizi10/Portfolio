@@ -2,6 +2,7 @@ import React from 'react'
 import ExperienceData from '../ExperienceData.js'
 import Experience from './Experience.js'
 import { Player } from '@lottiefiles/react-lottie-player'
+import '../index.css';
 
 const Experiences = () => {
     return (
@@ -23,7 +24,7 @@ const Experiences = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid bg-light p-5 min-vh-100">
+            <div className="container-fluid projectsDivColour p-5 min-vh-100">
                 <div className="row">
                     {ExperienceData.ExperiencesData.map((experience) => {
                         return (
@@ -44,7 +45,7 @@ const Experiences = () => {
                                     desc3={experience.description3}
                                     desc4={experience.description4}
                                     desc5={experience.description5}
-
+                                    colour={experience.colour}
                                 />
                             </div>
                         )

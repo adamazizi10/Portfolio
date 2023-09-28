@@ -35,7 +35,7 @@ const ProjectsData = [
     img: pass1,
     img2: pass2,
     name: "Leaked Password Detector | Python Scripting",
-    Tech: "Python | SHA-1 Hashing | Requests & Hashlib libraries",
+    Tech: "Python | SHA-1 Hashing",
     date: "Apr 2023 - May 2023",
     live: "",
     source: "https://github.com/adamazizi10/Leaked-Password-Detector",
@@ -52,34 +52,34 @@ const ProjectsData = [
     description6:  
     "",
   },
-  {
-    id: "E-Portfolio",
-    img: PortfolioPic,
-    img2: PortfolioPic2,
-    name: "E-Portfolio",
-    Tech: "Reactjs | Hooks | Redux",
-    date: "Sep 2022 - Oct 2022",
-    live: "https://adamazizi.ml/",
-    source: "https://github.com/adamazizi10/react-portfolio",
-    description1:
-    "Utilized Redux to manage state and improve application performance by minimizing the number of unnecessary re-renders",
-    description2: 
-    "Implemented React Hooks, such as useState and useEffect, to simplify the management of component state and lifecycle methods",
-    description3:  
-    "Employed responsive design principles and CSS media queries to ensure optimal rendering and user experience across a wide range of devices and screen sizes",
-    description4:  
-    "Utilized React Router to create a smooth, seamless navigation experience, allowing users to easily move between pages without needing to refresh the entire page",
-    description5:  
-    "Incorporated React components and props to organize and modularize code, improving readability and maintainability of the project",
-    description6:  
-    "",
-  },
+  // {
+  //   id: "E-Portfolio",
+  //   img: PortfolioPic,
+  //   img2: PortfolioPic2,
+  //   name: "E-Portfolio",
+  //   Tech: "Reactjs | Hooks | Redux",
+  //   date: "Sep 2022 - Oct 2022",
+  //   live: "https://adamazizi.ml/",
+  //   source: "https://github.com/adamazizi10/react-portfolio",
+  //   description1:
+  //   "Utilized Redux to manage state and improve application performance by minimizing the number of unnecessary re-renders",
+  //   description2: 
+  //   "Implemented React Hooks, such as useState and useEffect, to simplify the management of component state and lifecycle methods",
+  //   description3:  
+  //   "Employed responsive design principles and CSS media queries to ensure optimal rendering and user experience across a wide range of devices and screen sizes",
+  //   description4:  
+  //   "Utilized React Router to create a smooth, seamless navigation experience, allowing users to easily move between pages without needing to refresh the entire page",
+  //   description5:  
+  //   "Incorporated React components and props to organize and modularize code, improving readability and maintainability of the project",
+  //   description6:  
+  //   "",
+  // },
   {
     id: "Bookstore",
     img: Book1,
     img2: Book2,
     name: "Bookstore Management App",
-    Tech: "Java | Database | Authorizations",
+    Tech: "Java | Security | Authorizations | Testing",
     date: "Mar 2022 - Apr 2022",
     live: "",
     source: "https://github.com/adamazizi10/Bookstore-Management-System",

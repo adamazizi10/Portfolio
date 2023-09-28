@@ -2,10 +2,10 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from './Navbar'
 
-const SharedLayout = () => {
+const SharedLayout = ({onChange, checked, theme}) => {
   return (
     <>
-      <Navbar />
+      <Navbar onChange={onChange} checked={checked}/>
       <Outlet />
     </>
   )
