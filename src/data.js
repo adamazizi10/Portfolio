@@ -10,7 +10,7 @@ const ProjectsData = [
     id: "Face-Detector",
     img: facedetector2,
     img2: facedetector,
-    name: "Face Detector | Image Detection API",
+    name: "Face Detector",
     Tech: "Reactjs | Node.js | Express.js | PostgreSQL",
     date: "Aug 2022 - Sep 2022",
     live: "https://adamazizi10.github.io/face-detector/",
