@@ -9,28 +9,28 @@ function Project({ id, image, name, stack, live, source, Tech, date, image2, des
     return (
         <div className="">
             <div className="shadow-lg mb-5" style={{ borderRadius: "30px", position: "relative" }}>
-                <div className="d-flex justify-content-between">
+                <div className="displayFlexProject justify-content-between">
                     <div className=''>
                         <img
                             src={image}
-                            className="img-fluid"
-                            style={{ width: "100%", height: "100%", objectFit: "cover", borderTopLeftRadius: "30px", borderBottomLeftRadius: "30px" }}
+                            className="img-fluid cornersForcardsLeft"
+                            style={{ width: "700px", height: "100%", objectFit: "fill"}}
                             alt={name}
                         />
                     </div>
-                    <div className='p-4 cardBackgroundColour' style={{ borderTopRightRadius: "30px", borderBottomRightRadius: "30px" }}>
-                        <h5 className="fw-bold ">{name}</h5>
-                        <hr />
+                    <div className='p-4 cardBackgroundColour cornersForCardsRight' style={{  }}>
+                        <h5 className="fw-bold text-white">{name}</h5>
+                        <hr style={{backgroundColor: "white"}}/>
 
                         {filteredDescriptions.length > 0 && (
                             <ul>
                                 {filteredDescriptions.map((desc, index) => (
-                                    <li key={index} className="p-1 ">{desc}</li>
+                                    <li key={index} className="p-1 text-white">{desc}</li>
                                 ))}
                             </ul>
                         )}
 
-                        <hr />
+                        <hr style={{backgroundColor: "white"}}/>
                         <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <div><p className="text-muted">{Tech}</p></div>
                             <div>

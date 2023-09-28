@@ -265,7 +265,7 @@ nav {
 }
 
 #dark .cardBackgroundColour {
-  background-color: white;
+  background-color: rgb(24, 26, 27);
 }
 
 #light .aboutTextColour {
@@ -430,6 +430,30 @@ color: orange;
   
 }
 
+@media screen and (min-device-width:950px), screen and (min-width:950px) {
+  .displayFlexProject{
+    display: flex;
+  }
+  .cornersForcardsLeft {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .widthforExp {
+    width: 70%;
+  }
+  .cornersForCardsRight {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+}
+
+@media screen and (max-device-width:949px), screen and (max-width:949px) {
+  .displayNoneForNav{
+    display: none;
+  
+  }
+  
+}
 @media screen and (max-device-width:460px), screen and (max-width:460px) {
   .spLottie{
     width: 250px ;

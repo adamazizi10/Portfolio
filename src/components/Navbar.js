@@ -15,23 +15,23 @@ const Navbar = ({ onChange, checked }) => {
           <a href="#home" className="link nav-phone">
             Home
           </a>
-          <a href="#AboutMe" className="link nav-phone">
+          <a href="#AboutMe" className="link nav-phone displayNoneForNav">
             About
           </a>
-          <a href="#skills" className="link nav-phone">
+          <a href="#skills" className="link nav-phone displayNoneForNav">
             Skills
           </a>
           <a href="#experience" className="link nav-phone">
             Experience
           </a>
-          <a href="#projects" className="link nav-phone ">
+          <a href="#projects" className="link nav-phone displayNoneForNav">
             Projects
           </a>
           <a href="#contact" className="link">
             Contact
           </a>
         </div><div></div>
-        <div className='ModeColour' style={{position: "absolute", right: "65px", fontSize: "18px", color: "#3edd8e"}}>Toggle <FaArrowRight style={{color: "#3edd8e"}}/>&nbsp;&nbsp;</div>
+        <div className='ModeColour displayNoneForNav' style={{position: "absolute", right: "65px", fontSize: "18px", color: "#3edd8e"}}>Toggle <FaArrowRight style={{color: "#3edd8e"}}/>&nbsp;&nbsp;</div>
         <DarkModeSwitch
            style={{position: "absolute", right: "17px", top: "17px"}}
               checked={checked}

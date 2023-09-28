@@ -1,3 +1,6 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
 name: Node.js CI
 
 on:
@@ -18,8 +21,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set working directory
-      run: cd Q:/prog/__js_libs__/bit-playground
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
