@@ -41,7 +41,7 @@ const ExperiencesData = [
     description1: 
     "Developed and launched a mobile application that allows hospital patients to control the positioning of their beds, resulting in a 30% increase in patient satisfaction",
     description2:
-    "Utilized Figma to create a user-friendly and visually appealing application design, and developed the application's functionality, ensuring optimal performance and ease of use",
+    "Utilized Figma to create a user-friendly and visually appealing application design and developed the application's functionality, ensuring optimal performance and ease of use",
     description3: 
     "Analyzed and tested builds to identify and resolve any bugs, leading to a 90% decrease in application crashes",
     description4:  
