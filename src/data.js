@@ -2,8 +2,6 @@ import facedetector from "./assets/portfolioImages/face-detector.png"
 import facedetector2 from "./assets/portfolioImages/face-detector2.png"
 import Book1 from "./assets/portfolioImages/Book1.png"
 import Book2 from "./assets/portfolioImages/Book2.png"
-import PortfolioPic from "./assets/portfolioImages/PortfolioPic.png"
-import PortfolioPic2 from "./assets/portfolioImages/PortfolioPic2.png"
 import pass1 from "./assets/portfolioImages/pass1.png"
 import pass2 from "./assets/portfolioImages/pass2.png"
 const ProjectsData = [
@@ -98,4 +96,8 @@ const ProjectsData = [
   },
 ];
 
-export default {ProjectsData}
+const exportObject = {
+  ProjectsData,
+};
+
+export default exportObject;

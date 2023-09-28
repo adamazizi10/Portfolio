@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
 import About from './About';
 import Experiences from './Experiences';

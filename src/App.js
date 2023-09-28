@@ -11,7 +11,7 @@ function App() {
 
   const toggleDarkMode = (checked) => {
     setDarkMode(checked);
-    if (isDarkMode == true) {
+    if (isDarkMode === true) {
       setTheme('Light')
       setLine("black")
     } else {

@@ -54,4 +54,8 @@ const ExperiencesData = [
    
 ];
 
-export default {ExperiencesData}
+const exportObject = {
+  ExperiencesData,
+};
+
+export default exportObject;
