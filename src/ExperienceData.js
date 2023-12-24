@@ -1,7 +1,6 @@
  
-import Salumatics from "./assets/portfolioImages/Salumatics.png";
-import tetra from "./assets/portfolioImages/tetra.jpg"
- 
+import Salumatics from "./assets/portfolioImages/face-detector4.png"
+import tetra from "./assets/portfolioImages/face-detector4.png"
 const ExperiencesData = [
   {
     id: "salumatics",
@@ -32,7 +31,7 @@ const ExperiencesData = [
     img: tetra,
     Type: "",
     date: "Oct 2022 - Dec 2022",
-    stack: ["Mobile Development  |  ",  "Object-Oriented Programming"],
+    stack: ["Full Stack Application"],
     name: "Tetra",
     location: "Toronto, Ontario, Canada",
     live: "https://tetraryerson.ca/",

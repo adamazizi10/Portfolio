@@ -286,6 +286,14 @@ nav {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
+.techText{
+  color: #FFF8DC;
+}
+
+/* .expTech {
+  color: #FFF8DC;
+} */
+
 .containerSM .btnSM {
   display: inline-block;
   width: 90px;
@@ -430,7 +438,7 @@ color: orange;
   
 }
 
-@media screen and (min-device-width:950px), screen and (min-width:950px) {
+@media screen and (min-device-width:1250px), screen and (min-width:1250px) {
   .displayFlexProject{
     display: flex;
   }

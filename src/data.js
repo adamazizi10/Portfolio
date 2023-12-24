@@ -1,16 +1,15 @@
-import facedetector from "./assets/portfolioImages/face-detector.png"
-import facedetector2 from "./assets/portfolioImages/face-detector2.png"
+import facedetector4 from "./assets/portfolioImages/face-detector4.png"
 import Book1 from "./assets/portfolioImages/Book1.png"
-import Book2 from "./assets/portfolioImages/Book2.png"
-import pass1 from "./assets/portfolioImages/pass1.png"
-import pass2 from "./assets/portfolioImages/pass2.png"
+import game1 from "./assets/portfolioImages/game1.png"
+import wristband1 from "./assets/portfolioImages/wristband1.png"
+
 const ProjectsData = [
    
   {
     id: "Face-Detector",
-    img: facedetector2,
-    img2: facedetector,
-    name: "Face Detector",
+    img: facedetector4,
+    img2: facedetector4,
+    name: "Face Detector Full Stack Application",
     Tech: "Reactjs | Node.js | Express.js | PostgreSQL",
     date: "Aug 2022 - Sep 2022",
     live: "https://adamazizi10.github.io/face-detector/",
@@ -29,20 +28,20 @@ const ProjectsData = [
     "",
   },
   {
-    id: "Leaked-Password-Detector",
-    img: pass1,
-    img2: pass2,
-    name: "Leaked Password Detector | Python Scripting",
-    Tech: "Python | SHA-1 Hashing",
-    date: "Apr 2023 - May 2023",
+    id: "PongGame",
+    img: game1,
+    img2: game1,
+    name: "Full Stack Application with Multiplayer Pong Game",
+    Tech: "Reactjs | Django | SQLite | Websockets",
+    date: "Sep 2023 - Nov 2023",
     live: "",
-    source: "https://github.com/adamazizi10/Leaked-Password-Detector",
+    source: "https://github.com/adamazizi10/Multiplayer-Pong-Game",
     description1:
-    "Developed a password detector using Python and libraries such as requests and hashlib that enables users to verify if their passwords have been compromised, resulting in improved online security for users",
-    description2: 
-    "Achieved a reliable and accurate password check rate of 95% by integrating the application with the pwned passwords API and implementing SHA-1 hashing for password encryption",
-    description3:  
-    "Implemented a command-line interface for secure password checking, enabling users to avoid typing their full password on the web and minimizing the risk of sensitive information exposure",
+    "Created an online multiplayer pong game enabling participation of up to 8 guest or registered players at once",
+    description2:  
+    "Utilized Reactjs for frontend and Django for backend, to create the account system allowing players to save and view their match history as well as the access a dynamic leaderboard",
+    description3: 
+    "Implemented WebSocket technology in JavaScript to enable real-time multiplayer functionality for the game",
     description4:  
     "",
     description5:  
@@ -50,6 +49,50 @@ const ProjectsData = [
     description6:  
     "",
   },
+  {
+    id: "capstoneWristband",
+    img: wristband1,
+    img2: wristband1,
+    name: "Parkinson Disease Detection Wristband with Full Stack GUI",
+    Tech: "Python | React.js | Node.js | Express.js",
+    date: "Sep 2023 - Dec 2023",
+    live: "",
+    source: "https://github.com/adamazizi10/Frontend-ParkinsonWristband",
+    description1:
+    "Engineered a Parkinson's Disease Simulation and detection wristband by utilizing motors on two rails controlled by an ESP32 microcontroller and MPU6050 motion-tracker to retrieve accelerometer data",
+    description2: 
+    "Implemented the K-Nearest Neighbours Machine Learning algorithm to assess Parkinson's severity from the data and categorizing it as None, Low, Medium, or High",
+    description3:  
+    "Developed the GUI using React.js and Node.js for interaction and 3D visualization of Parkinson's detection results, and an account system for healthcare professionals, assigning each doctor a dashboard for patient profile management",
+    description4:  
+    "",
+    description5:  
+    "",
+    description6:  
+    "",
+  },
+  // {
+  //   id: "Leaked-Password-Detector",
+  //   img: pass1,
+  //   img2: pass2,
+  //   name: "Leaked Password Detector | Python Scripting",
+  //   Tech: "Python | SHA-1 Hashing",
+  //   date: "Apr 2023 - May 2023",
+  //   live: "",
+  //   source: "https://github.com/adamazizi10/Leaked-Password-Detector",
+  //   description1:
+  //   "Developed a password detector using Python and libraries such as requests and hashlib that enables users to verify if their passwords have been compromised, resulting in improved online security for users",
+  //   description2: 
+  //   "Achieved a reliable and accurate password check rate of 95% by integrating the application with the pwned passwords API and implementing SHA-1 hashing for password encryption",
+  //   description3:  
+  //   "Implemented a command-line interface for secure password checking, enabling users to avoid typing their full password on the web and minimizing the risk of sensitive information exposure",
+  //   description4:  
+  //   "",
+  //   description5:  
+  //   "",
+  //   description6:  
+  //   "",
+  // },
   // {
   //   id: "E-Portfolio",
   //   img: PortfolioPic,
@@ -75,9 +118,9 @@ const ProjectsData = [
   {
     id: "Bookstore",
     img: Book1,
-    img2: Book2,
+    img2: Book1,
     name: "Bookstore Management App",
-    Tech: "Java | Security | Authorizations | Testing",
+    Tech: "Java",
     date: "Mar 2022 - Apr 2022",
     live: "",
     source: "https://github.com/adamazizi10/Bookstore-Management-System",
