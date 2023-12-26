@@ -12,7 +12,6 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
         <div style={{ height: isSmallScreen ? '950px' : '', width: isSmallScreen ? '700px' : ''}} className="">
             <div className="shadow-lg mb-5" style={{ borderRadius: isSmallScreen ? "30px" : "30px 0 0 30px", position: "relative" }}>
                 <div style={{ display: isSmallScreen ? 'block' : 'flex' }} className="justify-content-between">
-                    {console.log(`image is: ${name}`)}
                     <div className=''>
                         {name === 'Face Detector Full Stack Application'
                             && <img

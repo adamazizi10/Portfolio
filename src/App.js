@@ -72,9 +72,9 @@ function App() {
       <div className="App" id={theme.toLowerCase()}>
         <SharedLayout isMediumScreen={isMediumScreen} isSmallScreen={isSmallScreen} windowSize={windowWidth} windowWidth={windowWidth} onChange={toggleDarkMode} checked={isDarkMode} />
         <Home isDarkMode={isDarkMode} theme={line} isMediumScreen={isMediumScreen} isSmallScreen={isSmallScreen} windowSize={windowWidth} windowWidth={windowWidth} sourceCodeText={sourceCodeText} liveSiteText={liveSiteText} />
-        <div style={{"color": 'white'}}>
+        {/* <div style={{"color": 'white'}}>
           Here - Window Size: {windowSize.width} x {windowSize.height}
-        </div>
+        </div> */}
       </div>
     </ThemeContext.Provider>
   );
