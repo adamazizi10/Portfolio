@@ -39,10 +39,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 @media (max-width: 700px) {
   body {
-    font-size: small;
+    font-size: 13px;
   }
 
   h1,
@@ -51,9 +50,25 @@ body {
   h4,
   h5,
   h6 {
-    font-size: medium;
+    font-size: 17px;
   }
 }
+
+
+/* @media (max-width: 700px) {
+  body {
+    font-size: 13px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 20px;
+  }
+} */
 
 #light {
   background-color: white;
@@ -486,7 +501,6 @@ screen and (min-width:1250px) {
 
   .cornersForcardsLeft {
     border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
   }
 
   .widthforExp {
@@ -532,3 +546,4 @@ screen and (max-width:335px) {
     display: flex;
   }
 }
+

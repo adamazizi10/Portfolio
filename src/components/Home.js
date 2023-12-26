@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
 import About from './About';
 import Experiences from './Experiences';
@@ -6,33 +6,8 @@ import Projects from './Projects';
 import Contact from './Contact';
 import '../index.css';
 
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-const Home = ({ theme, isDarkMode }) => {
-  const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
-  });
-
-  const handleResize = () => {
-    setWindowSize({
-      width: window.innerWidth,
-      height: window.innerHeight,
-    });
-  };
-
-  useEffect(() => {
-    setWindowSize({
-      width: window.innerWidth,
-      height: window.innerHeight,
-    });
-
-    window.addEventListener('resize', handleResize);
-
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, windowWidth, liveSiteText, sourceCodeText }) => {
   return (
     <section id='home' className="background p-5 min-vh-100">
       <div className='container-fluid mainHome'>
@@ -41,8 +16,16 @@ const Home = ({ theme, isDarkMode }) => {
             <h1 className='NameColour'>Hey! I'm Adam Azizi</h1>
             <h1 id='AboutMe' className='fw-bold custom-font'>Software Developer</h1>
           </div>
-
-          {windowSize.width > 850  && windowSize.width < 1100 && <div>
+          {windowWidth <= 700 && <div>
+            <Player
+              src='https://assets6.lottiefiles.com/packages/lf20_DbCYKfCXBZ.json'
+              className="player"
+              loop
+              autoplay
+              style={{ maxHeight: '150px', maxWidth: '150px' }}
+            />
+          </div>}
+          {windowWidth > 700  && windowWidth < 1100 && <div>
             <Player
               src='https://assets6.lottiefiles.com/packages/lf20_DbCYKfCXBZ.json'
               className="player"
@@ -51,20 +34,20 @@ const Home = ({ theme, isDarkMode }) => {
               style={{ maxHeight: '350px', maxWidth: '350px' }}
             />
           </div>}
-          {windowSize.width > 1100 && <div>
+          {windowWidth > 1100 && <div>
             <Player
               src='https://assets6.lottiefiles.com/packages/lf20_DbCYKfCXBZ.json'
               className="player"
               loop
               autoplay
-              style={{ maxHeight: '500px', maxWidth: '500px' }}
+              style={{ maxHeight: '400px', maxWidth: '400px' }}
             />
           </div>}
         </div>
       </div>
       <hr style={{ backgroundColor: theme }} /><br />
       <div className='displayFlexT'>
-        {windowSize.width > 1200 && <div>
+        {windowWidth > 1200 && <div>
           <Player
             src='https://assets4.lottiefiles.com/packages/lf20_5ko2mBiWUp.json'
             className="player spLottie"
@@ -89,11 +72,11 @@ const Home = ({ theme, isDarkMode }) => {
       </div>
 
       <br /><hr id='skills' style={{ backgroundColor: theme }}></hr><br /><br /><br />
-      <About isDarkMode={isDarkMode} />
+      <About isDarkMode={isDarkMode} windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} />
       <hr id='experience' style={{ backgroundColor: theme }} />
-      <Experiences />
+      <Experiences windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen}/>
       <hr id='projects' style={{ backgroundColor: theme }} />
-      <Projects windowSize={windowSize} />
+      <Projects windowSize={windowSize} windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} liveSiteText={liveSiteText} sourceCodeText={sourceCodeText} />
       <hr id='contact' style={{ backgroundColor: theme }} />
       <Contact />
     </section>

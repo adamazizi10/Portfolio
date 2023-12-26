@@ -4,7 +4,7 @@ import Experience from './Experience.js'
 import { Player } from '@lottiefiles/react-lottie-player'
 import '../index.css';
 
-const Experiences = () => {
+const Experiences = ({windowWidth, isSmallScreen, isMediumScreen}) => {
     return (
         <div>
             <div className='container-fluid mainHome'>
@@ -46,6 +46,9 @@ const Experiences = () => {
                                     desc4={experience.description4}
                                     desc5={experience.description5}
                                     colour={experience.colour}
+                                    windowWidth={windowWidth} 
+                                    isSmallScreen={isSmallScreen} 
+                                    isMediumScreen={isMediumScreen}
                                 />
                             </div>
                         )

@@ -2,126 +2,55 @@ import React from 'react';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { BiLinkExternal } from 'react-icons/bi';
 
-function Project({ windowSize, id, image, name, stack, live, source, Tech, date, image2, desc1, desc2, desc3, desc4, desc5, desc6, colour, job, location }) {
+function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isMediumScreen, id, image, name, stack, live, source, Tech, date, image2, desc1, desc2, desc3, desc4, desc5, desc6, desc7, desc8, colour, job, location }) {
     const descriptions = [desc1, desc2, desc3, desc4, desc5, desc6];
     const filteredDescriptions = descriptions.filter(desc => desc);
 
-    // let content;
 
-    // if (image === 1) {
-    //   content = <div>hi</div>;
-    // } else if (image === 2) {
-    //   content = <div>hey</div>;
-    // } else if (image === 3) {
-    //   content = <div>hello</div>;
-    // } else {
-    //   // Default content if image doesn't match any condition
-    //   content = <div>Default</div>;
-    // }
+
     return (
-        <div className="">
-            <div className="shadow-lg mb-5" style={{ borderRadius: "30px", position: "relative" }}>
-                <div className="displayFlexProject justify-content-between">
+        <div style={{ height: isSmallScreen ? '950px' : '', width: isSmallScreen ? '700px' : ''}} className="">
+            <div className="shadow-lg mb-5" style={{ borderRadius: isSmallScreen ? "30px" : "30px 0 0 30px", position: "relative" }}>
+                <div style={{ display: isSmallScreen ? 'block' : 'flex' }} className="justify-content-between">
                     {console.log(`image is: ${name}`)}
                     <div className=''>
-                        {windowSize.width <= 1800
-                            ? <div>
-                                {windowSize.width <= 570 &&
-                                    <div>
-                                        {/* {name === 'Face Detector Full Stack Application'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1700px", height: "450px", objectFit: "cover" }}
-                                                alt={name}
-                                            />}
-                                        {name === 'Full Stack Application with Multiplayer Pong Game'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1400px", height: "430px", objectFit: "cover" }}
-                                                alt={name}
-                                            />}
-                                        {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1820px", height: "443px", objectFit: "cover" }}
-                                                alt={name}
-                                            />}
-                                        {name === 'Bookstore Management App'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1505px", height: "100%", objectFit: "cover" }}
-                                                alt={name}
-                                            />} */}
-                                    </div>}
-                                {windowSize.width > 570 && windowSize.width < 1800 &&
-                                    <div>
-                                        {name === 'Face Detector Full Stack Application'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1700px", height: "450px", objectFit: "fill" }}
-                                                alt={name}
-                                            />}
-                                        {name === 'Full Stack Application with Multiplayer Pong Game'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1400px", height: "430px", objectFit: "fill" }}
-                                                alt={name}
-                                            />}
-                                        {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1820px", height: "443px", objectFit: "fill" }}
-                                                alt={name}
-                                            />}
-                                        {name === 'Bookstore Management App'
-                                            && <img
-                                                src={image}
-                                                className="img-fluid cornersForcardsLeft"
-                                                style={{ width: "1505px", height: "100%", objectFit: "fill" }}
-                                                alt={name}
-                                            />}
-                                    </div>}
-                            </div>
-                            : <div>
-                                {name === 'Face Detector Full Stack Application'
-                                    && <img
-                                        src={image}
-                                        className="img-fluid cornersForcardsLeft"
-                                        style={{ width: "950px", height: "100%", objectFit: "contain" }}
-                                        alt={name}
-                                    />}
-                                {name === 'Full Stack Application with Multiplayer Pong Game'
-                                    && <img
-                                        src={image}
-                                        className="img-fluid cornersForcardsLeft"
-                                        style={{ width: "780px", height: "100%", objectFit: "fill" }}
-                                        alt={name}
-                                    />}
-                                {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
-                                    && <img
-                                        src={image}
-                                        className="img-fluid cornersForcardsLeft"
-                                        style={{ width: "1000px", height: "100%", objectFit: "fill" }}
-                                        alt={name}
-                                    />}
-                                {name === 'Bookstore Management App'
-                                    && <img
-                                        src={image}
-                                        className="img-fluid cornersForcardsLeft"
-                                        style={{ width: "825px", height: "350px", objectFit: "fill" }}
-                                        alt={name}
-                                    />}
-                            </div>
-                        }
+                        {name === 'Face Detector Full Stack Application'
+                            && <img
+                                src={image}
+                                className="img-fluid"
+                                style={{ width: isSmallScreen ? "1700px" : '2000px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                alt={name}
+                            />}
+                        {name === 'Full Stack Application with Multiplayer Pong Game'
+                            && <img
+                                src={image}
+                                className="img-fluid"
+                                style={{ width: isSmallScreen ? "1400px" : '2200px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                alt={name}
+                            />}
+                        {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
+                            && <img
+                                src={image}
+                                className="img-fluid"
+                                style={{ width: isSmallScreen ? "1820px" : '2390px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                alt={name}
+                            />}
+                        {name === 'Bookstore Management App'
+                            && <img
+                                src={image}
+                                className="img-fluid"
+                                style={{ width: isSmallScreen? "1505px" : '2265px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                alt={name}
+                            />}
                     </div>
-                    <div className='p-4 cardBackgroundColour cornersForCardsRight' style={{}}>
+                    <div
+                        className='p-4 cardBackgroundColour'
+                        style={{
+                            borderTopRightRadius: isSmallScreen ? '0' : '30px',
+                            borderTopLeftRadius: isSmallScreen ? '3px0' : '0px',
+                            borderBottomRightRadius: '30px',
+                            borderBottomLeftRadius: isSmallScreen ? '30px' : '0px'
+                         }}>
                         <h5 className="fw-bold text-white">{name}</h5>
                         <hr style={{ backgroundColor: "white" }} />
 
@@ -139,13 +68,15 @@ function Project({ windowSize, id, image, name, stack, live, source, Tech, date,
                             <div>
                                 {live && (
                                     <a href={live} target="_blank" rel="noreferrer" className='link'>
-                                        Live Site <BiLinkExternal style={{ color: '#3edd8e' }} />
+                                        {liveSiteText} <BiLinkExternal style={{ color: '#3edd8e' }} />
                                     </a>
                                 )} &nbsp;&nbsp;&nbsp;
                                 <a href={source} target="_blank" rel="noreferrer" className='link'>
-                                    Source Code <AiOutlineGithub style={{ color: '#3edd8e' }} />
+                                    {sourceCodeText} <AiOutlineGithub style={{ color: '#3edd8e' }} />
                                 </a>
                             </div>
+
+                            
                         </div>
                     </div>
                 </div>
