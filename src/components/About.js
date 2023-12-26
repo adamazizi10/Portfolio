@@ -4,7 +4,7 @@ import './design.css';
 import '../index.css';
 
 
-const About = () => {
+const About = ({ isDarkMode }) => {
   return (
     <div className='container-fluid'>
       <div className='d-sm-flex align-items-center justify-content-between'>
@@ -44,16 +44,16 @@ const About = () => {
               <p className='aboutTextColour mb-0 technology-name'>React</p>
             </div>
             <div className='text-center mx-4'>
+              <img style={{ 'backgroundColor': 'white', 'borderRadius': '100px' }} className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="React" width="60" height="60" />
+              <p className='aboutTextColour mb-0 technology-name'>Next.js</p>
+            </div>
+            <div className='text-center mx-4'>
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>Vue.js</p>
             </div>
             <div className='text-center mx-4'>
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="AngularJS" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>AngularJS</p>
-            </div>
-            <div className='text-center mx-4'>
-              <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass" width="60" height="60" />
-              <p className='aboutTextColour mb-0 technology-name'>Sass</p>
             </div>
             <div className='text-center mx-4'>
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="60" height="60" />
@@ -77,6 +77,16 @@ const About = () => {
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>Node.js</p>
             </div>
+            {isDarkMode
+              ? <div className='text-center mx-4'>
+                <img style={{ 'borderRadius': '20px' }} className='my-3' src="https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png" alt="React" width="60" height="60" />
+                <p className='aboutTextColour mb-0 technology-name'>Django</p>
+              </div>
+              : <div className='text-center mx-4'>
+                <img className='my-3' src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/django/django-plain.svg" alt="React" width="60" height="60" />
+                <p className='aboutTextColour mb-0 technology-name'>Django</p>
+              </div>}
+
             <div className='text-center mx-4'>
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="gijavat" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>Java</p>
@@ -85,7 +95,7 @@ const About = () => {
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="csharp" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>C#</p>
             </div>
-          
+
             <div className='text-center mx-4'>
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt="dotnetcore" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>.NET Core</p>
@@ -97,10 +107,6 @@ const About = () => {
             <div className='text-center mx-4'>
               <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>C++</p>
-            </div>
-            <div className='text-center mx-4'>
-              <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="kotlin" width="60" height="60" />
-              <p className='aboutTextColour mb-0 technology-name'>Kotlin</p>
             </div>
           </div>
         </div>

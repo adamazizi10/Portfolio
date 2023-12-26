@@ -22,7 +22,7 @@ function App() {
     <ThemeContext.Provider>
       <div className='App' id={theme.toLowerCase()}>
         <SharedLayout onChange={toggleDarkMode} checked={isDarkMode}/>
-        <Home theme={Line}/>
+        <Home isDarkMode={isDarkMode} theme={Line}/>
       </div>
     </ThemeContext.Provider>
 

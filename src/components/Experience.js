@@ -20,7 +20,7 @@ function Experience({ name, stack, live, source, desc1, desc2, desc3, desc4, des
             <li className="p-1 text-white">{desc2}</li>
             <li className="p-1 text-white">{desc3}</li>
             <li className="p-1 text-white">{desc4}</li>
-            <li className="p-1 text-white">{desc5}</li>
+            {desc5 !== "" && <li className="p-1 text-white">{desc5}</li>}
           </ul><hr style={{backgroundColor: "white"}}/><div className="text-muted">&nbsp;{stack}</div>
         </div>
       </div>

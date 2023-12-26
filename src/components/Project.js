@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { BiLinkExternal } from 'react-icons/bi';
 
-function Project({ id, image, name, stack, live, source, Tech, date, image2, desc1, desc2, desc3, desc4, desc5, desc6, colour, job, location }) {
+function Project({ windowSize, id, image, name, stack, live, source, Tech, date, image2, desc1, desc2, desc3, desc4, desc5, desc6, colour, job, location }) {
     const descriptions = [desc1, desc2, desc3, desc4, desc5, desc6];
     const filteredDescriptions = descriptions.filter(desc => desc);
 
@@ -24,34 +24,102 @@ function Project({ id, image, name, stack, live, source, Tech, date, image2, des
                 <div className="displayFlexProject justify-content-between">
                     {console.log(`image is: ${name}`)}
                     <div className=''>
-                        {name === 'Face Detector Full Stack Application'
-                            && <img
-                                src={image}
-                                className="img-fluid cornersForcardsLeft"
-                                style={{ width: "1700px", height: "100%", objectFit: "fill" }}
-                                alt={name}
-                            />}
-                        {name === 'Full Stack Application with Multiplayer Pong Game'
-                            && <img
-                                src={image}
-                                className="img-fluid cornersForcardsLeft"
-                                style={{ width: "1400px", height: "100%", objectFit: "fill" }}
-                                alt={name}
-                            />}
-                        {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
-                            && <img
-                                src={image}
-                                className="img-fluid cornersForcardsLeft"
-                                style={{ width: "1820px", height: "100%", objectFit: "fill" }}
-                                alt={name}
-                            />}
-                        {name === 'Bookstore Management App'
-                            && <img
-                                src={image}
-                                className="img-fluid cornersForcardsLeft"
-                                style={{ width: "1505px", height: "100%", objectFit: "fill" }}
-                                alt={name}
-                            />}
+                        {windowSize.width <= 1800
+                            ? <div>
+                                {windowSize.width <= 570 &&
+                                    <div>
+                                        {/* {name === 'Face Detector Full Stack Application'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1700px", height: "450px", objectFit: "cover" }}
+                                                alt={name}
+                                            />}
+                                        {name === 'Full Stack Application with Multiplayer Pong Game'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1400px", height: "430px", objectFit: "cover" }}
+                                                alt={name}
+                                            />}
+                                        {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1820px", height: "443px", objectFit: "cover" }}
+                                                alt={name}
+                                            />}
+                                        {name === 'Bookstore Management App'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1505px", height: "100%", objectFit: "cover" }}
+                                                alt={name}
+                                            />} */}
+                                    </div>}
+                                {windowSize.width > 570 && windowSize.width < 1800 &&
+                                    <div>
+                                        {name === 'Face Detector Full Stack Application'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1700px", height: "450px", objectFit: "fill" }}
+                                                alt={name}
+                                            />}
+                                        {name === 'Full Stack Application with Multiplayer Pong Game'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1400px", height: "430px", objectFit: "fill" }}
+                                                alt={name}
+                                            />}
+                                        {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1820px", height: "443px", objectFit: "fill" }}
+                                                alt={name}
+                                            />}
+                                        {name === 'Bookstore Management App'
+                                            && <img
+                                                src={image}
+                                                className="img-fluid cornersForcardsLeft"
+                                                style={{ width: "1505px", height: "100%", objectFit: "fill" }}
+                                                alt={name}
+                                            />}
+                                    </div>}
+                            </div>
+                            : <div>
+                                {name === 'Face Detector Full Stack Application'
+                                    && <img
+                                        src={image}
+                                        className="img-fluid cornersForcardsLeft"
+                                        style={{ width: "950px", height: "100%", objectFit: "contain" }}
+                                        alt={name}
+                                    />}
+                                {name === 'Full Stack Application with Multiplayer Pong Game'
+                                    && <img
+                                        src={image}
+                                        className="img-fluid cornersForcardsLeft"
+                                        style={{ width: "780px", height: "100%", objectFit: "fill" }}
+                                        alt={name}
+                                    />}
+                                {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
+                                    && <img
+                                        src={image}
+                                        className="img-fluid cornersForcardsLeft"
+                                        style={{ width: "1000px", height: "100%", objectFit: "fill" }}
+                                        alt={name}
+                                    />}
+                                {name === 'Bookstore Management App'
+                                    && <img
+                                        src={image}
+                                        className="img-fluid cornersForcardsLeft"
+                                        style={{ width: "825px", height: "350px", objectFit: "fill" }}
+                                        alt={name}
+                                    />}
+                            </div>
+                        }
                     </div>
                     <div className='p-4 cardBackgroundColour cornersForCardsRight' style={{}}>
                         <h5 className="fw-bold text-white">{name}</h5>

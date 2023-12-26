@@ -17,7 +17,7 @@ const Contact = () => {
             <a href="https://github.com/adamazizi10" target="_blank" rel="noreferrer" class="btnSM gh contactButtons">
               <i id='iTarget' ><FaGithub /></i>
             </a>
-              <a href="mailto:adamazizi101@gmail.com" class="btnSM en contactButtons">
+              <a href="mailto:adamazizi102@gmail.com" class="btnSM en contactButtons">
                 <i id='iTarget'><FaEnvelope /></i>
               </a>
           </div>

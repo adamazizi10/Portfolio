@@ -10,7 +10,7 @@ const ProjectsData = [
     img: facedetector4,
     img2: facedetector4,
     name: "Face Detector Full Stack Application",
-    Tech: "Reactjs | Node.js | Express.js | PostgreSQL",
+    Tech: "Reactjs | Node.js | Express.js | PostgreSQL | Figma",
     date: "Aug 2022 - Sep 2022",
     live: "https://adamazizi10.github.io/face-detector/",
     source: "https://github.com/adamazizi10/face-detector-frontend",
@@ -32,7 +32,7 @@ const ProjectsData = [
     img: game1,
     img2: game1,
     name: "Full Stack Application with Multiplayer Pong Game",
-    Tech: "Reactjs | Django | SQLite | Websockets",
+    Tech: "Reactjs | Django | SQLite | Python | Figma | Websockets",
     date: "Sep 2023 - Nov 2023",
     live: "",
     source: "https://github.com/adamazizi10/Multiplayer-Pong-Game",
@@ -43,7 +43,7 @@ const ProjectsData = [
     description3: 
     "Implemented WebSocket technology in JavaScript to enable real-time multiplayer functionality for the game",
     description4:  
-    "",
+    "Added authTokens to enhance session management, ensuring secure player tracking and efficient management of game room IDs",
     description5:  
     "",
     description6:  
@@ -54,7 +54,7 @@ const ProjectsData = [
     img: wristband1,
     img2: wristband1,
     name: "Parkinson Disease Detection Wristband with Full Stack GUI",
-    Tech: "Python | React.js | Node.js | Express.js",
+    Tech: "Python | React.js | Node.js | Express.js | Figma",
     date: "Sep 2023 - Dec 2023",
     live: "",
     source: "https://github.com/adamazizi10/Frontend-ParkinsonWristband",
@@ -120,7 +120,7 @@ const ProjectsData = [
     img: Book1,
     img2: Book1,
     name: "Bookstore Management App",
-    Tech: "Java",
+    Tech: "Java | Object Oriented Programing | Figma",
     date: "Mar 2022 - Apr 2022",
     live: "",
     source: "https://github.com/adamazizi10/Bookstore-Management-System",
