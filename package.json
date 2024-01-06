@@ -1,6 +1,5 @@
 {
     "name": "PortfolioWebsite",
-    "homepage": "https://adamazizi10.github.io/PortfolioWebsite",
     "version": "0.1.0",
     "private": false,
     "dependencies": {
