@@ -12,7 +12,7 @@ const ProjectsData = [
     name: "Face Detector Full Stack Application",
     Tech: "Reactjs | Node.js | Express.js | PostgreSQL | Figma",
     date: "Aug 2022 - Sep 2022",
-    live: "https://adamazizi10.github.io/face-detector/",
+    live: "https://www.face-detector.live/",
     source: "https://github.com/adamazizi10/face-detector-frontend",
     description1:
       "Developed a secure and scalable web application using Reactjs, Node.js, Express.js, and PostgreSQL to detect faces in images using Clarafai’s Face Recognition API, resulting in an accurate and efficient detection rate of 97%",
@@ -92,7 +92,7 @@ const ProjectsData = [
       "Developed an intuitive graphical user interface (GUI) using React.js and Node.js, facilitating user interaction and 3D visualization of Parkinson's detection results. Additionally, a sophisticated account system tailored for healthcare professionals was created, assigning each doctor a personalized dashboard for efficient patient profile management and data interpretation.",
 
     description8:
-      "Ensured high security in data transfer through RESTful APIs, incorporating advanced measures such as password hashing and salting. This approach fortifies user account protection, guaranteeing the confidentiality and integrity of sensitive healthcare data. The emphasis on secure data handling reflects a commitment to maintaining the highest standards of privacy and confidentiality in healthcare applications.",
+      "Ensured high security in data transfer through RESTful APIs, incorporating advanced measures such as password hashing and salting.",
   },
   // {
   //   id: "Leaked-Password-Detector",
@@ -156,13 +156,13 @@ const ProjectsData = [
     description4:
       "Collaborated on the visual design using Figma, ensuring an intuitive and aesthetically pleasing user interface, enhancing the overall user experience of the Bookstore Management App.",
     description5:
-      "Utilized Java Swing to meticulously craft a user-friendly and responsive graphical user interface (GUI) for the Bookstore Management App. This GUI empowers administrators by providing a seamless platform to manage books, users, and orders with unparalleled ease, emphasizing efficiency and user satisfaction.",
+      "Utilized Java Swing to create a user-friendly and responsive graphical user interface (GUI) for the Bookstore Management App. This GUI allows administrators to manage books, users, and orders with unparalleled ease, emphasizing efficiency and user satisfaction.",
 
     description6:
-      "Architected a robust and organized database schema using Java Database Connectivity (JDBC), ensuring the systematic storage and retrieval of information related to books, users, and orders. This meticulous approach enhances the application's performance and responsiveness, contributing to a streamlined and efficient Bookstore Management system.",
+      "Architected a robust and organized database schema using Java Database Connectivity (JDBC), ensuring the systematic storage and retrieval of information related to books, users, and orders. This efficient approach enhances the application's performance and responsiveness, contributing to a streamlined and efficient Bookstore Management system.",
 
     description7:
-      "Implemented a secure authentication and authorization system leveraging Java's built-in security libraries. This system guarantees that only authorized users can access sensitive data, reinforcing the integrity and confidentiality of the information stored within the Bookstore Management App, aligning with the highest standards of data security.",
+      "Implemented a secure authentication and authorization system leveraging Java's built-in security libraries. This system guarantees that only authorized users can access sensitive data, reinforcing the integrity and confidentiality of the information stored within the Bookstore Management App",
 
     description8:
       "Collaborated on the visual design aspect using Figma, contributing to an intuitive and aesthetically pleasing user interface. This collaborative effort ensures that the Bookstore Management App not only meets functional requirements but also provides an engaging and visually appealing experience for administrators, thereby enhancing the overall usability and user satisfaction of the application.",

@@ -46,10 +46,10 @@ const Projects = ({ windowSize, windowWidth, isMediumScreen, isSmallScreen, live
                     // desc2={project.description2}
                     // desc3={project.description3}
                     // desc4={project.description4}
-                    desc1={isMediumScreen ? project.description1 : project.description5}
-                    desc2={isMediumScreen ? project.description2 : project.description6}
-                    desc3={isMediumScreen ? project.description3 : project.description7}
-                    desc4={windowWidth >= 1400 ? project.description8 : ''}
+                    desc1={windowSize < 1683 ? project.description1 : project.description5}
+                    desc2={windowSize < 1683 ? project.description2 : project.description6}
+                    desc3={ windowSize < 1683 ? project.description3 : project.description7}
+                    desc4={windowSize < 1683 ? project.description4 : project.description8}
 
                     windowSize={windowSize}
                     isSmallScreen={isSmallScreen}

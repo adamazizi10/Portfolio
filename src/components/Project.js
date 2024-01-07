@@ -9,39 +9,108 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
 
 
     return (
-        <div style={{ height: isSmallScreen ? '950px' : '', width: isSmallScreen ? '700px' : ''}} className="">
+        <div style={{ height: isSmallScreen ? '950px' : '', width: isSmallScreen ? '700px' : '' }} className="">
             <div className="shadow-lg mb-5" style={{ borderRadius: isSmallScreen ? "30px" : "30px 0 0 30px", position: "relative" }}>
                 <div style={{ display: isSmallScreen ? 'block' : 'flex' }} className="justify-content-between">
-                    <div className=''>
-                        {name === 'Face Detector Full Stack Application'
-                            && <img
-                                src={image}
-                                className="img-fluid"
-                                style={{ width: isSmallScreen ? "1700px" : '2000px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
-                                alt={name}
-                            />}
-                        {name === 'Full Stack Application with Multiplayer Pong Game'
-                            && <img
-                                src={image}
-                                className="img-fluid"
-                                style={{ width: isSmallScreen ? "1400px" : '2200px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
-                                alt={name}
-                            />}
-                        {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
-                            && <img
-                                src={image}
-                                className="img-fluid"
-                                style={{ width: isSmallScreen ? "1820px" : '2390px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
-                                alt={name}
-                            />}
-                        {name === 'Bookstore Management App'
-                            && <img
-                                src={image}
-                                className="img-fluid"
-                                style={{ width: isSmallScreen? "1505px" : '2265px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
-                                alt={name}
-                            />}
-                    </div>
+
+                    {windowWidth >= 1683 &&
+                        <div className=''>
+                            {name === 'Face Detector Full Stack Application'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '1930px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Full Stack Application with Multiplayer Pong Game'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1400px" : '2100px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1820px" : '1990px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Bookstore Management App'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1505px" : '2140px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                        </div>
+                    }
+
+                    {windowWidth > 1200 && windowWidth < 1683 &&
+                        <div className=''>
+                            {name === 'Face Detector Full Stack Application'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '1530px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Full Stack Application with Multiplayer Pong Game'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1400px" : '1250px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1820px" : '1600px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Bookstore Management App'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1505px" : '1325px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                        </div>
+                    }
+                    {windowWidth <= 1200 &&
+                        <div className=''>
+                            {name === 'Face Detector Full Stack Application'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '2000px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Full Stack Application with Multiplayer Pong Game'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1400px" : '2200px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1820px" : '2390px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Bookstore Management App'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1505px" : '2265px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                        </div>}
+
+
                     <div
                         className='p-4 cardBackgroundColour'
                         style={{
@@ -49,7 +118,7 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                             borderTopLeftRadius: isSmallScreen ? '3px0' : '0px',
                             borderBottomRightRadius: '30px',
                             borderBottomLeftRadius: isSmallScreen ? '30px' : '0px'
-                         }}>
+                        }}>
                         <h5 className="fw-bold text-white">{name}</h5>
                         <hr style={{ backgroundColor: "white" }} />
 
@@ -75,7 +144,7 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                                 </a>
                             </div>
 
-                            
+
                         </div>
                     </div>
                 </div>
