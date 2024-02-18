@@ -15,6 +15,13 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
 
                     {windowWidth >= 1683 &&
                         <div className=''>
+                            {name === 'Fuel Finder Detector Web Application'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '1430px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
                             {name === 'Face Detector Full Stack Application'
                                 && <img
                                     src={image}
@@ -48,6 +55,13 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
 
                     {windowWidth > 1200 && windowWidth < 1683 &&
                         <div className=''>
+                            {name === 'Fuel Finder Detector Web Application'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '1820px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
                             {name === 'Face Detector Full Stack Application'
                                 && <img
                                     src={image}
@@ -80,6 +94,13 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                     }
                     {windowWidth <= 1200 &&
                         <div className=''>
+                            {name === 'Fuel Finder Detector Web Application'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '1930px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
                             {name === 'Face Detector Full Stack Application'
                                 && <img
                                     src={image}

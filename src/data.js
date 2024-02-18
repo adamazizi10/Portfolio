@@ -2,9 +2,9 @@ import facedetector4 from "./assets/portfolioImages/face-detector4.png"
 import Book1 from "./assets/portfolioImages/Book1.png"
 import game1 from "./assets/portfolioImages/game1.png"
 import wristband1 from "./assets/portfolioImages/wristband1.png"
+import fuelfinder12 from "./assets/portfolioImages/fuelfinder12.png"
 
 const ProjectsData = [
-
   {
     id: "Face-Detector",
     img: facedetector4,
@@ -36,33 +36,31 @@ const ProjectsData = [
       "Created user-friendly profile pages that seamlessly integrate with the web application, providing an intuitive interface for users to manage their face detection entries, change passwords, and access relevant information effortlessly. This emphasis on user experience promotes accessibility and ease of use, enhancing overall user satisfaction and engagement."
   },
   {
-    id: "PongGame",
-    img: game1,
-    img2: game1,
-    name: "Full Stack Application with Multiplayer Pong Game",
-    Tech: "Reactjs | Django | SQLite | Python | Figma | Websockets",
-    date: "Sep 2023 - Nov 2023",
-    live: "",
-    source: "https://github.com/adamazizi10/Multiplayer-Pong-Game",
+    id: "Fuel-Finder",
+    img: fuelfinder12,
+    img2: fuelfinder12,
+    name: "Fuel Finder Detector Web Application",
+    Tech: "Next.js | Reactjs | Typescript | Tailwind CSS | Figma",
+    date: "Aug 2022 - Sep 2022",
+    live: "https://www.fuelfinder.live/",
+    source: "https://github.com/adamazizi10/Fuel-Finder",
     description1:
-      "Created an online multiplayer pong game enabling participation of up to 8 guest or registered players at once",
-    description2:
-      "Utilized Reactjs for frontend and Django for backend, to create the account system allowing players to save and view their match history as well as the access a dynamic leaderboard",
+      "Developed a responsive Fuel Finder Web Application utilizing Next.js, ReactJS, TypeScript, and Tailwind CSS, enabling users to locate the nearest gas stations with a user-friendly interface, contributing to an enhanced user experience and engagement",
+      description2:
+      "Integrated interactive maps and real-time data fetching to display gas stations' locations, addresses, and navigation links, ensuring users can access accurate and up-to-date information for efficient route planning",
     description3:
-      "Implemented WebSocket technology in JavaScript to enable real-time multiplayer functionality for the game",
+      "Implemented a comprehensive search functionality with filters for gas station preferences, such as fuel type and additional services offered, allowing users to customize their search results based on specific needs",
     description4:
-      "Added authTokens to enhance session management, ensuring secure player tracking and efficient management of game room IDs",
-    description5:
-      "Developed and deployed a cutting-edge online multiplayer pong game, elevating the gaming experience by accommodating up to 8 concurrent players, whether they are guests or registered users. The emphasis was on creating a seamless and engaging platform for players to connect and compete in real-time.",
-
-    description6:
-      "Employed Reactjs for the frontend and Django for the backend, crafting a robust account system that empowers players to not only participate in exhilarating matches but also save and review their match history. The incorporation of a dynamic leaderboard adds a competitive edge, showing a sense of achievement and recognition within the gaming community.",
-
+      "Designed and implemented a detailed gas station profile page for each listing, providing users with essential information including opening hours, fuel prices, and user reviews, alongside a direct link for navigation, facilitating informed decision-making for end-users",
+      description5:
+      "Developed a responsive Fuel Finder Web Application utilizing Next.js, ReactJS, TypeScript, and Tailwind CSS, enabling users to locate the nearest gas stations with a user-friendly interface, contributing to an enhanced user experience and engagement",
+      description6:
+      "Integrated interactive maps and real-time data fetching to display gas stations' locations, addresses, and navigation links, ensuring users can access accurate and up-to-date information for efficient route planning",
     description7:
-      "Integrated WebSocket technology in JavaScript, a pivotal step in achieving real-time multiplayer functionality for the game. This technology facilitates instantaneous communication, creating an immersive gaming environment where players can experience the thrill of live competition with minimal latency.",
-
+      "Implemented a comprehensive search functionality with filters for gas station preferences, such as fuel type and additional services offered, allowing users to customize their search results based on specific needs",
     description8:
-      "Implemented authTokens to elevate session management, ensuring a secure and efficient way to track players and manage game room IDs. This addition not only enhances the overall security of player data but also streamlines the gaming experience by providing a stable and reliable framework for tracking player activity and ensuring seamless transitions within the gaming environment."
+      "Designed and implemented a detailed gas station profile page for each listing, providing users with essential information including opening hours, fuel prices, and user reviews, alongside a direct link for navigation, facilitating informed decision-making for end-users",
+
   },
   {
     id: "capstoneWristband",
@@ -93,6 +91,35 @@ const ProjectsData = [
 
     description8:
       "Ensured high security in data transfer through RESTful APIs, incorporating advanced measures such as password hashing and salting.",
+  },
+  {
+    id: "PongGame",
+    img: game1,
+    img2: game1,
+    name: "Full Stack Application with Multiplayer Pong Game",
+    Tech: "Reactjs | Django | SQLite | Python | Figma | Websockets",
+    date: "Sep 2023 - Nov 2023",
+    live: "",
+    source: "https://github.com/adamazizi10/Multiplayer-Pong-Game",
+    description1:
+      "Created an online multiplayer pong game enabling participation of up to 8 guest or registered players at once",
+    description2:
+      "Utilized Reactjs for frontend and Django for backend, to create the account system allowing players to save and view their match history as well as the access a dynamic leaderboard",
+    description3:
+      "Implemented WebSocket technology in JavaScript to enable real-time multiplayer functionality for the game",
+    description4:
+      "Added authTokens to enhance session management, ensuring secure player tracking and efficient management of game room IDs",
+    description5:
+      "Developed and deployed a cutting-edge online multiplayer pong game, elevating the gaming experience by accommodating up to 8 concurrent players, whether they are guests or registered users. The emphasis was on creating a seamless and engaging platform for players to connect and compete in real-time.",
+
+    description6:
+      "Employed Reactjs for the frontend and Django for the backend, crafting a robust account system that empowers players to not only participate in exhilarating matches but also save and review their match history. The incorporation of a dynamic leaderboard adds a competitive edge, showing a sense of achievement and recognition within the gaming community.",
+
+    description7:
+      "Integrated WebSocket technology in JavaScript, a pivotal step in achieving real-time multiplayer functionality for the game. This technology facilitates instantaneous communication, creating an immersive gaming environment where players can experience the thrill of live competition with minimal latency.",
+
+    description8:
+      "Implemented authTokens to elevate session management, ensuring a secure and efficient way to track players and manage game room IDs. This addition not only enhances the overall security of player data but also streamlines the gaming experience by providing a stable and reliable framework for tracking player activity and ensuring seamless transitions within the gaming environment."
   },
   // {
   //   id: "Leaked-Password-Detector",
