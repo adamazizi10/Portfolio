@@ -2,7 +2,8 @@ import facedetector4 from "./assets/portfolioImages/face-detector4.png"
 import Book1 from "./assets/portfolioImages/Book1.png"
 import game1 from "./assets/portfolioImages/game1.png"
 import wristband1 from "./assets/portfolioImages/wristband1.png"
-import fuelfinder12 from "./assets/portfolioImages/fuelfinder12.png"
+import fuelfinder16 from "./assets/portfolioImages/fuelfinder16.png"
+import fuelfinder2 from "./assets/portfolioImages/fuelfinder2.png"
 
 const ProjectsData = [
   {
@@ -37,29 +38,29 @@ const ProjectsData = [
   },
   {
     id: "Fuel-Finder",
-    img: fuelfinder12,
-    img2: fuelfinder12,
+    img: fuelfinder16,
+    img2: fuelfinder2,
     name: "Fuel Finder Detector Web Application",
     Tech: "Next.js | Reactjs | Typescript | Tailwind CSS | Figma",
     date: "Aug 2022 - Sep 2022",
     live: "https://www.fuelfinder.live/",
     source: "https://github.com/adamazizi10/Fuel-Finder",
     description1:
-      "Developed a responsive Fuel Finder Web Application utilizing Next.js, ReactJS, TypeScript, and Tailwind CSS, enabling users to locate the nearest gas stations with a user-friendly interface, contributing to an enhanced user experience and engagement",
+      "Developed a responsive Fuel Finder Web Application utilizing Next.js, ReactJS, TypeScript, and Tailwind CSS, enabling users to locate the nearest gas stations with a user-friendly interface",
       description2:
-      "Integrated interactive maps and real-time data fetching to display gas stations' locations, addresses, and navigation links, ensuring users can access accurate and up-to-date information for efficient route planning",
+      "Integrated interactive maps and real-time data fetching to display gas stations' locations, addresses, and navigation links",
     description3:
-      "Implemented a comprehensive search functionality with filters for gas station preferences, such as fuel type and additional services offered, allowing users to customize their search results based on specific needs",
+      "Designed and implemented a detailed gas station profile page for each listing, providing users with essential information",
     description4:
-      "Designed and implemented a detailed gas station profile page for each listing, providing users with essential information including opening hours, fuel prices, and user reviews, alongside a direct link for navigation, facilitating informed decision-making for end-users",
+      "Incorporated precise geolocation data, providing users with the exact longitude and latitude coordinates for each gas station accessed",
       description5:
       "Developed a responsive Fuel Finder Web Application utilizing Next.js, ReactJS, TypeScript, and Tailwind CSS, enabling users to locate the nearest gas stations with a user-friendly interface, contributing to an enhanced user experience and engagement",
       description6:
       "Integrated interactive maps and real-time data fetching to display gas stations' locations, addresses, and navigation links, ensuring users can access accurate and up-to-date information for efficient route planning",
     description7:
-      "Implemented a comprehensive search functionality with filters for gas station preferences, such as fuel type and additional services offered, allowing users to customize their search results based on specific needs",
+      "Incorporated precise geolocation data, providing users with the exact longitude and latitude coordinates for each gas station accessed, enabling more accurate and efficient navigation planning and enhancing the utility of the application for location-specific searches",
     description8:
-      "Designed and implemented a detailed gas station profile page for each listing, providing users with essential information including opening hours, fuel prices, and user reviews, alongside a direct link for navigation, facilitating informed decision-making for end-users",
+      "Designed and implemented a detailed gas station profile page for each listing, providing users with essential information including a direct link for navigation",
 
   },
   {

@@ -59,7 +59,7 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                                 && <img
                                     src={image}
                                     className="img-fluid"
-                                    style={{ width: isSmallScreen ? "1700px" : '1820px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    style={{ width: isSmallScreen ? "1700px" : '1300px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
                                     alt={name}
                                 />}
                             {name === 'Face Detector Full Stack Application'
