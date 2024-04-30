@@ -4,6 +4,7 @@ import game1 from "./assets/portfolioImages/game1.png"
 import wristband1 from "./assets/portfolioImages/wristband1.png"
 import fuelfinder16 from "./assets/portfolioImages/fuelfinder16.png"
 import fuelfinder2 from "./assets/portfolioImages/fuelfinder2.png"
+import autolib from './assets/portfolioImages/autolib.png'
 
 const ProjectsData = [
   {
@@ -37,6 +38,66 @@ const ProjectsData = [
       "Created user-friendly profile pages that seamlessly integrate with the web application, providing an intuitive interface for users to manage their face detection entries, change passwords, and access relevant information effortlessly. This emphasis on user experience promotes accessibility and ease of use, enhancing overall user satisfaction and engagement."
   },
   {
+    id: "capstoneWristband",
+    img: wristband1,
+    img2: wristband1,
+    name: "Parkinson Disease Detection Wristband with Full Stack GUI",
+    Tech: "Python | React.js | Node.js | Express.js | Figma",
+    date: "Sep 2023 - Dec 2023",
+    live: "https://parkinson-wristband.vercel.app/",
+    source: "https://github.com/adamazizi10/Frontend-ParkinsonWristband",
+    description1:
+      "Engineered a Parkinson's Disease Simulation and detection wristband by utilizing motors on two rails controlled by an ESP32 microcontroller and MPU6050 motion-tracker to retrieve accelerometer data",
+    description2:
+      "Implemented the K-Nearest Neighbours Machine Learning algorithm to assess Parkinson's severity from the data and categorizing it as None, Low, Medium, or High",
+    description3:
+      "Developed the GUI using React.js and Node.js for interaction and 3D visualization of Parkinson's detection results, and an account system for healthcare professionals, assigning each doctor a dashboard for patient profile management",
+    description4:
+      "Secured seamless data transfer with RESTful APIs, utilizing password hashing and salting for robust user account protection",
+
+    description5:
+      "Engineered a fully functional Parkinson's Disease Simulation and detection wristband, employing innovative technologies such as motors on two rails controlled by an ESP32 microcontroller and an MPU6050 motion-tracker to capture precise accelerometer data. This meticulous approach ensures accuracy and reliability in detecting Parkinson's Disease symptoms.",
+
+    description6:
+      "Implemented the K-Nearest Neighbours Machine Learning algorithm to analyze accelerometer data and assess Parkinson's severity. The system intelligently categorizes the severity into distinct levels of None, Low, Medium, or High, providing valuable insights for healthcare professionals in evaluating and managing patients' conditions effectively.",
+
+    description7:
+      "Developed an intuitive graphical user interface (GUI) using React.js and Node.js, facilitating user interaction and 3D visualization of Parkinson's detection results. Additionally, a sophisticated account system tailored for healthcare professionals was created, assigning each doctor a personalized dashboard for efficient patient profile management and data interpretation.",
+
+    description8:
+      "Ensured high security in data transfer through RESTful APIs, incorporating advanced measures such as password hashing and salting.",
+  },
+  {
+    id: "autolib",
+    img: autolib,
+    img2: autolib,
+    name: "Autolib - Automated Public Library System",
+    Tech: "React.js | Node.js | Flask | Figma",
+    date: "Sep 2023 - Dec 2023",
+    live: "https://autolib-one.vercel.app/",
+    source: "https://github.com/adamazizi10/autolib-frontend",
+    description1:
+      "Developed a responsive React.js and Flask web application by integrating AI-powered bias detection tools in systematic evidence synthesis, containerized with Docker and hosted on live server",
+    description2:
+      "Created an annotation tool for volunteers, simplifying PDF annotation for AI training, resulting in over 80% productivity gains and increased annotated PDFs for data collection",
+    description3:
+      "Implemented UI/UX design principles to ensure a visually appealing interface, simplifying accessibility to AI functionalities for bias detection and analysis",
+    description4:
+      "Contributed to project documentation to ensure comprehensive documentation for future AI Tool volunteers",
+
+    description5:
+      "Developed a responsive web application using React.js and Flask, integrating AI-powered bias detection tools for systematic evidence synthesis. Containerized the application with Docker and hosted it on a live server for real-time access.",
+
+    description6:
+      "Designed and implemented an annotation tool to simplify PDF annotation for AI training, resulting in over 80% productivity gains and increased annotated PDFs for enriched data collection.",
+
+    description7:
+      "Applied UI/UX design principles to ensure a visually appealing interface, making AI functionalities for bias detection and analysis accessible to users of varying technical backgrounds.",
+
+    description8:
+      "Contributed extensively to project documentation, creating comprehensive guides for future volunteers to understand the application's architecture, functionality, and deployment procedures, ensuring seamless project continuity.",
+  },
+  {
     id: "Fuel-Finder",
     img: fuelfinder16,
     img2: fuelfinder2,
@@ -62,36 +123,6 @@ const ProjectsData = [
     description8:
       "Designed and implemented a detailed gas station profile page for each listing, providing users with essential information including a direct link for navigation",
 
-  },
-  {
-    id: "capstoneWristband",
-    img: wristband1,
-    img2: wristband1,
-    name: "Parkinson Disease Detection Wristband with Full Stack GUI",
-    Tech: "Python | React.js | Node.js | Express.js | Figma",
-    date: "Sep 2023 - Dec 2023",
-    live: "",
-    source: "https://github.com/adamazizi10/Frontend-ParkinsonWristband",
-    description1:
-      "Engineered a Parkinson's Disease Simulation and detection wristband by utilizing motors on two rails controlled by an ESP32 microcontroller and MPU6050 motion-tracker to retrieve accelerometer data",
-    description2:
-      "Implemented the K-Nearest Neighbours Machine Learning algorithm to assess Parkinson's severity from the data and categorizing it as None, Low, Medium, or High",
-    description3:
-      "Developed the GUI using React.js and Node.js for interaction and 3D visualization of Parkinson's detection results, and an account system for healthcare professionals, assigning each doctor a dashboard for patient profile management",
-    description4:
-      "Secured seamless data transfer with RESTful APIs, utilizing password hashing and salting for robust user account protection",
-
-    description5:
-      "Engineered a fully functional Parkinson's Disease Simulation and detection wristband, employing innovative technologies such as motors on two rails controlled by an ESP32 microcontroller and an MPU6050 motion-tracker to capture precise accelerometer data. This meticulous approach ensures accuracy and reliability in detecting Parkinson's Disease symptoms.",
-
-    description6:
-      "Implemented the K-Nearest Neighbours Machine Learning algorithm to analyze accelerometer data and assess Parkinson's severity. The system intelligently categorizes the severity into distinct levels of None, Low, Medium, or High, providing valuable insights for healthcare professionals in evaluating and managing patients' conditions effectively.",
-
-    description7:
-      "Developed an intuitive graphical user interface (GUI) using React.js and Node.js, facilitating user interaction and 3D visualization of Parkinson's detection results. Additionally, a sophisticated account system tailored for healthcare professionals was created, assigning each doctor a personalized dashboard for efficient patient profile management and data interpretation.",
-
-    description8:
-      "Ensured high security in data transfer through RESTful APIs, incorporating advanced measures such as password hashing and salting.",
   },
   {
     id: "PongGame",

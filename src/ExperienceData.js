@@ -1,26 +1,50 @@
 import Salumatics from "./assets/portfolioImages/face-detector4.png"
 import tetra from "./assets/portfolioImages/face-detector4.png"
 const ExperiencesData = [
+  // {
+  //   id: "PMC",
+  //   job: "Software Developer",
+  //   img: tetra,
+  //   Type: "",
+  //   date: "Sep 2023 - Dec 2023",
+  //   stack: ["React.js | Django | SQLite | Python | Figma | Agile"],
+  //   name: "PMC",
+  //   location: "Toronto, ON, Canada",
+  //   live: "",
+  //   source: "",
+  //   colour: "orange",
+  //   description1: 
+  //   "Implemented a comprehensive Full-Stack application using Reactjs for the frontend, Django for the backend, and SQLite for the database, used as the tool to interact with users and create events",
+  //   description2:
+  //   "Strengthened security measures by implementing password hashing and salting techniques, while utilizing authtokens for secure session management between the backend and frontend",
+  //   description3: 
+  //   "Applied Agile methodologies by conducting frequent spring meetings, using Gantt charts, sprint backlogs, and burndown charts, to streamline the development process, resulting in successful delivery of the project",
+  //   description4:  
+  //   "Created RESTful APIs with endpoints for user registration, login, event creation, event history, profile updates, password updates and more, resulting in enhanced user experience and improved functionality",
+  //   description5:
+  //   "" 
+
+  // },
   {
-    id: "PMC",
+    id: "WISEST",
     job: "Software Developer",
     img: tetra,
     Type: "",
-    date: "Sep 2023 - Dec 2023",
-    stack: ["React.js | Django | SQLite | Python | Figma | Agile"],
-    name: "PMC",
+    date: "March 2024 - Present",
+    stack: ["React.js | Flask | PostgreSQL | Figma | Python"],
+    name: "WISEST TMU",
     location: "Toronto, ON, Canada",
     live: "",
     source: "",
     colour: "orange",
     description1: 
-    "Implemented a comprehensive Full-Stack application using Reactjs for the frontend, Django for the backend, and SQLite for the database, used as the tool to interact with users and create events",
+    "Developed a responsive React.js and Flask web application by integrating AI-powered bias detection tools in systematic evidence synthesis, containerized with Docker and hosted on live server",
     description2:
-    "Strengthened security measures by implementing password hashing and salting techniques, while utilizing authtokens for secure session management between the backend and frontend",
+    "Created an annotation tool for volunteers, simplifying PDF annotation for AI training, resulting in over 80% productivity gains and increased annotated PDFs for data collection",
     description3: 
-    "Applied Agile methodologies by conducting frequent spring meetings, using Gantt charts, sprint backlogs, and burndown charts, to streamline the development process, resulting in successful delivery of the project",
+    "Implemented UI/UX design principles to ensure a visually appealing interface, simplifying accessibility to AI functionalities for bias detection and analysis",
     description4:  
-    "Created RESTful APIs with endpoints for user registration, login, event creation, event history, profile updates, password updates and more, resulting in enhanced user experience and improved functionality",
+    "Contributed to project documentation to ensure comprehensive documentation for future AI Tool volunteers",
     description5:
     "" 
 
