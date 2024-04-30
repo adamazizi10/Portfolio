@@ -1,3 +1,3 @@
 # Personal Portfolio
 This is my personal Portfolio website. Check it out at:
-[https://adamazizi.com](https://www.adamazizi.live/)
+[https://adamazizi.live](https://www.adamazizi.live/)
