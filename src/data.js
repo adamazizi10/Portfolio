@@ -4,7 +4,7 @@ import game1 from "./assets/portfolioImages/game1.png"
 import wristband1 from "./assets/portfolioImages/wristband1.png"
 import fuelfinder16 from "./assets/portfolioImages/fuelfinder16.png"
 import fuelfinder2 from "./assets/portfolioImages/fuelfinder2.png"
-import autolib from './assets/portfolioImages/autolib.png'
+import autolib from './assets/portfolioImages/autolib3.png'
 
 const ProjectsData = [
   {
@@ -197,35 +197,35 @@ const ProjectsData = [
   //   description6:  
   //   "",
   // },
-  {
-    id: "Bookstore",
-    img: Book1,
-    img2: Book1,
-    name: "Bookstore Management App",
-    Tech: "Java | Object Oriented Programing | Figma",
-    date: "Mar 2022 - Apr 2022",
-    live: "",
-    source: "https://github.com/adamazizi10/Bookstore-Management-System",
-    description1:
-      `Utilized Java Swing to design a user-friendly and responsive graphical user interface that allows administrators to manage books, users, and orders with ease`,
-    description2:
-      "Designed and implemented a database schema using Java Database Connectivity (JDBC) to store and retrieve information about books, users, and orders in an efficient and organized manner",
-    description3:
-      "Implemented an authentication and authorization system using Java's built-in security libraries to ensure that only authorized users can access sensitive data",
-    description4:
-      "Collaborated on the visual design using Figma, ensuring an intuitive and aesthetically pleasing user interface, enhancing the overall user experience of the Bookstore Management App.",
-    description5:
-      "Utilized Java Swing to create a user-friendly and responsive graphical user interface (GUI) for the Bookstore Management App. This GUI allows administrators to manage books, users, and orders with unparalleled ease, emphasizing efficiency and user satisfaction.",
+  // {
+  //   id: "Bookstore",
+  //   img: Book1,
+  //   img2: Book1,
+  //   name: "Bookstore Management App",
+  //   Tech: "Java | Object Oriented Programing | Figma",
+  //   date: "Mar 2022 - Apr 2022",
+  //   live: "",
+  //   source: "https://github.com/adamazizi10/Bookstore-Management-System",
+  //   description1:
+  //     `Utilized Java Swing to design a user-friendly and responsive graphical user interface that allows administrators to manage books, users, and orders with ease`,
+  //   description2:
+  //     "Designed and implemented a database schema using Java Database Connectivity (JDBC) to store and retrieve information about books, users, and orders in an efficient and organized manner",
+  //   description3:
+  //     "Implemented an authentication and authorization system using Java's built-in security libraries to ensure that only authorized users can access sensitive data",
+  //   description4:
+  //     "Collaborated on the visual design using Figma, ensuring an intuitive and aesthetically pleasing user interface, enhancing the overall user experience of the Bookstore Management App.",
+  //   description5:
+  //     "Utilized Java Swing to create a user-friendly and responsive graphical user interface (GUI) for the Bookstore Management App. This GUI allows administrators to manage books, users, and orders with unparalleled ease, emphasizing efficiency and user satisfaction.",
 
-    description6:
-      "Architected a robust and organized database schema using Java Database Connectivity (JDBC), ensuring the systematic storage and retrieval of information related to books, users, and orders. This efficient approach enhances the application's performance and responsiveness, contributing to a streamlined and efficient Bookstore Management system.",
+  //   description6:
+  //     "Architected a robust and organized database schema using Java Database Connectivity (JDBC), ensuring the systematic storage and retrieval of information related to books, users, and orders. This efficient approach enhances the application's performance and responsiveness, contributing to a streamlined and efficient Bookstore Management system.",
 
-    description7:
-      "Implemented a secure authentication and authorization system leveraging Java's built-in security libraries. This system guarantees that only authorized users can access sensitive data, reinforcing the integrity and confidentiality of the information stored within the Bookstore Management App",
+  //   description7:
+  //     "Implemented a secure authentication and authorization system leveraging Java's built-in security libraries. This system guarantees that only authorized users can access sensitive data, reinforcing the integrity and confidentiality of the information stored within the Bookstore Management App",
 
-    description8:
-      "Collaborated on the visual design aspect using Figma, contributing to an intuitive and aesthetically pleasing user interface. This collaborative effort ensures that the Bookstore Management App not only meets functional requirements but also provides an engaging and visually appealing experience for administrators, thereby enhancing the overall usability and user satisfaction of the application.",
-  },
+  //   description8:
+  //     "Collaborated on the visual design aspect using Figma, contributing to an intuitive and aesthetically pleasing user interface. This collaborative effort ensures that the Bookstore Management App not only meets functional requirements but also provides an engaging and visually appealing experience for administrators, thereby enhancing the overall usability and user satisfaction of the application.",
+  // },
 ];
 
 const exportObject = {

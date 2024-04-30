@@ -19,7 +19,7 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                                 && <img
                                     src={image}
                                     className="img-fluid"
-                                    style={{ width: isSmallScreen ? "1700px" : '1430px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    style={{ width: isSmallScreen ? "1700px" : '1480px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
                                     alt={name}
                                 />}
                             {name === 'Face Detector Full Stack Application'
@@ -29,11 +29,18 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                                     style={{ width: isSmallScreen ? "1700px" : '1930px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
                                     alt={name}
                                 />}
+                            {name === 'Autolib - Automated Public Library System'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '1300px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
                             {name === 'Full Stack Application with Multiplayer Pong Game'
                                 && <img
                                     src={image}
                                     className="img-fluid"
-                                    style={{ width: isSmallScreen ? "1400px" : '2100px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    style={{ width: isSmallScreen ? "1400px" : '2170px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
                                     alt={name}
                                 />}
                             {name === 'Parkinson Disease Detection Wristband with Full Stack GUI'
@@ -47,7 +54,7 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                                 && <img
                                     src={image}
                                     className="img-fluid"
-                                    style={{ width: isSmallScreen ? "1505px" : '2140px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    style={{ width: isSmallScreen ? "1505px" : '2200px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
                                     alt={name}
                                 />}
                         </div>
@@ -67,6 +74,13 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                                     src={image}
                                     className="img-fluid"
                                     style={{ width: isSmallScreen ? "1700px" : '1530px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Autolib - Automated Public Library System'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '1360px', height: "100%", objectFit: isSmallScreen ? "fill" : "cover", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
                                     alt={name}
                                 />}
                             {name === 'Full Stack Application with Multiplayer Pong Game'
@@ -102,6 +116,13 @@ function Project({ liveSiteText, windowWidth, sourceCodeText, isSmallScreen, isM
                                     alt={name}
                                 />}
                             {name === 'Face Detector Full Stack Application'
+                                && <img
+                                    src={image}
+                                    className="img-fluid"
+                                    style={{ width: isSmallScreen ? "1700px" : '2000px', height: "100%", objectFit: "fill", borderRadius: isSmallScreen ? "30px 30px 0 0" : "30px 0 0 30px" }}
+                                    alt={name}
+                                />}
+                            {name === 'Autolib - Automated Public Library System'
                                 && <img
                                     src={image}
                                     className="img-fluid"

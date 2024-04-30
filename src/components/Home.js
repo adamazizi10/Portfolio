@@ -60,7 +60,8 @@ const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, wi
           ? <div>
             <h1 className='fw-bold custom-font DescMe DescMe2'>About me</h1>
             <ul className='DescMe aboutTextColour'>
-              <li style={{ fontSize: '17px', marginTop: '7px' }}>I am a passionate Software Developer with hands-on experience at PMC, Tetra, and Salumatics</li>
+              <li style={{ fontSize: '17px', marginTop: '7px' }}>I am a Software Engineering Recent Graduate with a passion for Software Development</li>
+              <li style={{ fontSize: '17px', marginTop: '7px' }}>I have hands-on experience as a Software Developer at WISEST TMU, Tetra, and Salumatics</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>During my experiences, I have contributed to the development of different applications, refining my skills in agile methodologies</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>I've also completed diverse projects using React.js, Node.js, Django, Python for scripting, web scraping, web development, machine learning, and data science</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>I thrive in dynamic environments and I am always eager to learn new technologies and methodologies</li>
@@ -78,7 +79,8 @@ const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, wi
           : <div>
             <h1 className='fw-bold custom-font DescMe DescMe2'>About me</h1>
             <ul className='DescMe aboutTextColour'>
-              <li style={{ fontSize: '15px', marginTop: '7px' }}>I am a passionate Software Developer with hands-on experience at PMC, Tetra, and Salumatics</li>
+              <li style={{ fontSize: '15px', marginTop: '7px' }}>I am a Software Engineering Recent Graduate with a passion for Software Development</li>
+              <li style={{ fontSize: '15px', marginTop: '7px' }}>I have hands-on experience as a Software Developer at WISEST TMU, Tetra, and Salumatics</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}>During my experiences, I have contributed to the development of applications, refining my skills in agile methodologies</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}>I've also completed diverse projects using React.js, Node.js, Django, Python for scripting, web scraping, web development, machine learning, data science, and testing</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}>I thrive in dynamic environments and am always eager to learn new technologies and methodologies</li>
