@@ -72,7 +72,7 @@ const ExperiencesData = [
     description5:
     "Implemented a suite of useful features and functionalities, including automated client billing discounts and streamlined data entry forms, achieving a significant 30% increase in sales team productivity" 
   },
-  
+  // 
    
 ];
 
