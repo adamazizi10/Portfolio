@@ -15,7 +15,7 @@ const ProjectsData = [
     Tech: "Reactjs | Node.js | Express.js | PostgreSQL | Figma",
     date: "Aug 2022 - Sep 2022",
     live: "https://www.face-detector.live/",
-    source: "https://github.com/adamazizi10/face-detector-frontend",
+    source: "https://github.com/adamazizi10/Face-Detector",
     description1:
       "Developed a secure and scalable web application using Reactjs, Node.js, Express.js, and PostgreSQL to detect faces in images using Clarafai’s Face Recognition API, resulting in an accurate and efficient detection rate of 97%",
     description2:
@@ -45,7 +45,7 @@ const ProjectsData = [
     Tech: "Python | React.js | Node.js | Express.js | Figma",
     date: "Sep 2023 - Dec 2023",
     live: "https://parkinson-wristband.vercel.app/",
-    source: "https://github.com/adamazizi10/Frontend-ParkinsonWristband",
+    source: "https://github.com/adamazizi10/Parkinson-Wristband-GUI",
     description1:
       "Engineered a Parkinson's Disease Simulation and detection wristband by utilizing motors on two rails controlled by an ESP32 microcontroller and MPU6050 motion-tracker to retrieve accelerometer data",
     description2:
@@ -75,7 +75,7 @@ const ProjectsData = [
     Tech: "React.js | Node.js | Flask | Figma",
     date: "Sep 2023 - Dec 2023",
     live: "https://autolib-one.vercel.app/",
-    source: "https://github.com/adamazizi10/autolib-frontend",
+    source: "https://github.com/adamazizi10/Autolib-Automated-Library",
     description1:
       "Developed a responsive React.js and Flask web application by integrating AI-powered bias detection tools in systematic evidence synthesis, containerized with Docker and hosted on live server",
     description2:
