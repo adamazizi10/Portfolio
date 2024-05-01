@@ -1,30 +1,6 @@
 import Salumatics from "./assets/portfolioImages/face-detector4.png"
 import tetra from "./assets/portfolioImages/face-detector4.png"
 const ExperiencesData = [
-  // {
-  //   id: "PMC",
-  //   job: "Software Developer",
-  //   img: tetra,
-  //   Type: "",
-  //   date: "Sep 2023 - Dec 2023",
-  //   stack: ["React.js | Django | SQLite | Python | Figma | Agile"],
-  //   name: "PMC",
-  //   location: "Toronto, ON, Canada",
-  //   live: "",
-  //   source: "",
-  //   colour: "orange",
-  //   description1: 
-  //   "Implemented a comprehensive Full-Stack application using Reactjs for the frontend, Django for the backend, and SQLite for the database, used as the tool to interact with users and create events",
-  //   description2:
-  //   "Strengthened security measures by implementing password hashing and salting techniques, while utilizing authtokens for secure session management between the backend and frontend",
-  //   description3: 
-  //   "Applied Agile methodologies by conducting frequent spring meetings, using Gantt charts, sprint backlogs, and burndown charts, to streamline the development process, resulting in successful delivery of the project",
-  //   description4:  
-  //   "Created RESTful APIs with endpoints for user registration, login, event creation, event history, profile updates, password updates and more, resulting in enhanced user experience and improved functionality",
-  //   description5:
-  //   "" 
-
-  // },
   {
     id: "WISEST",
     job: "Software Developer",
@@ -32,7 +8,7 @@ const ExperiencesData = [
     Type: "",
     date: "March 2024 - Present",
     stack: ["React.js | Flask | PostgreSQL | Figma | Python"],
-    name: "WISEST TMU",
+    name: "WISEST AI",
     location: "Toronto, ON, Canada",
     live: "",
     source: "",
