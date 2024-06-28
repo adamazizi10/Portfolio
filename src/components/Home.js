@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react';
+import { useInView } from 'react-intersection-observer';
 import { Player } from '@lottiefiles/react-lottie-player';
-import About from './About';
-import Experiences from './Experiences';
-import Projects from './Projects';
-import Contact from './Contact';
 import '../index.css';
-
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+
+// Lazy load the components
+const About = lazy(() => import('./About'));
+const Experiences = lazy(() => import('./Experiences'));
+const Projects = lazy(() => import('./Projects'));
+const Contact = lazy(() => import('./Contact'));
+
 const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, windowWidth, liveSiteText, sourceCodeText }) => {
+  const [aboutRef, aboutInView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  const [experiencesRef, experiencesInView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  const [projectsRef, projectsInView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  const [contactRef, contactInView] = useInView({ triggerOnce: true, threshold: 0.1 });
+
   return (
     <section id='home' className="background p-5 min-vh-100">
       <div className='container-fluid mainHome'>
@@ -95,19 +103,42 @@ const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, wi
             </ul>
           </div>
         }
-
       </div>
 
       <br /><hr id='skills' style={{ backgroundColor: theme }}></hr><br /><br /><br />
-      <About isDarkMode={isDarkMode} windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} />
+      <div ref={aboutRef}>
+        {aboutInView && (
+          <Suspense fallback={<div>Loading...</div>}>
+            <About isDarkMode={isDarkMode} windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} />
+          </Suspense>
+        )}
+      </div>
       <hr id='experience' style={{ backgroundColor: theme }} />
-      <Experiences windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} />
+      <div ref={experiencesRef}>
+        {experiencesInView && (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Experiences windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} />
+          </Suspense>
+        )}
+      </div>
       <hr id='projects' style={{ backgroundColor: theme }} />
-      <Projects windowSize={windowSize} windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} liveSiteText={liveSiteText} sourceCodeText={sourceCodeText} />
+      <div ref={projectsRef}>
+        {projectsInView && (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Projects windowSize={windowSize} windowWidth={windowWidth} isSmallScreen={isSmallScreen} isMediumScreen={isMediumScreen} liveSiteText={liveSiteText} sourceCodeText={sourceCodeText} />
+          </Suspense>
+        )}
+      </div>
       <hr id='contact' style={{ backgroundColor: theme }} />
-      <Contact />
+      <div ref={contactRef}>
+        {contactInView && (
+          <Suspense fallback={<div>Loading...</div>}>
+            <Contact />
+          </Suspense>
+        )}
+      </div>
     </section>
-  )
+  );
 }
 
-export default Home
+export default Home;
