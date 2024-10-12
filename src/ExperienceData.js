@@ -2,13 +2,36 @@ import Salumatics from "./assets/portfolioImages/face-detector4.png"
 import tetra from "./assets/portfolioImages/face-detector4.png"
 const ExperiencesData = [
   {
-    id: "WISEST",
-    job: "Software Developer",
+    id: "TMU1",
+    job: "Lead Full Stack Developer",
+    img: tetra,
+    Type: "",
+    date: "June 2024 - Present",
+    stack: ["Next.js | FastAPI | Supabase | Auth0 | Docker"],
+    name: "TMU",
+    location: "Toronto, ON, Canada",
+    live: "",
+    source: "",
+    colour: "orange",
+    description1: 
+    "Led the development of a Full-Stack dashboard application for AI services using Next.js, Supabase, and Auth0, allowing users to interact with AI-driven applications",
+    description2:
+    "Implemented a microservice architecture, with a FastAPI Docker container for each service, allowing high scalability with additional AI services",
+    description3: 
+    "Integrated Supabase and Auth0 for authentication, managing access for over ~150+ users",
+    description4:  
+    "Built a responsive and user-friendly dashboard applying UI/UX design principles to simplify the interaction with the AI services",
+    description5:
+    "" 
+  },
+  {
+    id: "TMU2",
+    job: "Full Stack Developer",
     img: tetra,
     Type: "",
     date: "March 2024 - Present",
     stack: ["React.js | Flask | PostgreSQL | Figma | Python"],
-    name: "WISEST AI",
+    name: "TMU",
     location: "Toronto, ON, Canada",
     live: "",
     source: "",
