@@ -68,7 +68,7 @@ const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, wi
           ? <div>
             <h1 className='fw-bold custom-font DescMe DescMe2'>About me</h1>
             <ul className='DescMe aboutTextColour'>
-              <li style={{ fontSize: '17px', marginTop: '7px' }}>I recently graduated with a Bachelor's Degree in Software Engineering from Toronto Metropolitan University (April 2024)</li>
+              <li style={{ fontSize: '17px', marginTop: '7px' }}>I have graduated with a Bachelor's Degree in Software Engineering from Toronto Metropolitan University</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>I have hands-on experience as a Software Developer at WISEST AI, Tetra, and Salumatics</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>During my experiences, I have contributed to the development of different applications, refining my skills in agile methodologies</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>I've also completed diverse projects using React.js, Node.js, Django, Python for scripting, web scraping, web development, machine learning, and data science</li>
