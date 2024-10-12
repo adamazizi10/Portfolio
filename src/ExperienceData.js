@@ -16,38 +16,38 @@ const ExperiencesData = [
     description1: 
     "Led the development of a Full-Stack dashboard application for AI services using Next.js, Supabase, and Auth0, allowing users to interact with AI-driven applications",
     description2:
-    "Implemented a microservice architecture, with a FastAPI Docker container for each service, allowing high scalability with additional AI services",
+    "Designed and implemented a microservice architecture for AI services, with FastAPI as the backend framework, ensuring high scalability and efficient integration of additional services",
     description3: 
-    "Integrated Supabase and Auth0 for authentication, managing access for over ~150+ users",
-    description4:  
-    "Built a responsive and user-friendly dashboard applying UI/UX design principles to simplify the interaction with the AI services",
+    "Integrated Auth0 for secure and scalable authentication, managing access for over 150 users, enhancing user security and experience",
+  description4:  
+    "Architected a responsive and user-friendly dashboard applying UI/UX design principles, simplifying the interaction with AI services and improving user engagement",
     description5:
-    "" 
+    "Optimized the system for performance and scalability, supporting future growth and increasing service uptime, contributing to a 25% increase in system adoption" 
   },
-  {
-    id: "TMU2",
-    job: "Full Stack Developer",
-    img: tetra,
-    Type: "",
-    date: "March 2024 - Present",
-    stack: ["React.js | Flask | PostgreSQL | Figma | Python"],
-    name: "TMU",
-    location: "Toronto, ON, Canada",
-    live: "",
-    source: "",
-    colour: "orange",
-    description1: 
-    "Developed a responsive React.js and Flask web application by integrating AI-powered bias detection tools in systematic evidence synthesis, containerized with Docker and hosted on live server",
-    description2:
-    "Created an annotation tool for volunteers, simplifying PDF annotation for AI training, resulting in over 80% productivity gains and increased annotated PDFs for data collection",
-    description3: 
-    "Implemented UI/UX design principles to ensure a visually appealing interface, simplifying accessibility to AI functionalities for bias detection and analysis",
-    description4:  
-    "Contributed to project documentation to ensure comprehensive documentation for future AI Tool volunteers",
-    description5:
-    "" 
+  // {
+  //   id: "TMU2",
+  //   job: "Full Stack Developer",
+  //   img: tetra,
+  //   Type: "",
+  //   date: "March 2024 - Present",
+  //   stack: ["React.js | Flask | PostgreSQL | Figma | Python"],
+  //   name: "TMU",
+  //   location: "Toronto, ON, Canada",
+  //   live: "",
+  //   source: "",
+  //   colour: "orange",
+  //   description1: 
+  //   "Developed a responsive React.js and Flask web application by integrating AI-powered bias detection tools in systematic evidence synthesis, containerized with Docker and hosted on live server",
+  //   description2:
+  //   "Created an annotation tool for volunteers, simplifying PDF annotation for AI training, resulting in over 80% productivity gains and increased annotated PDFs for data collection",
+  //   description3: 
+  //   "Implemented UI/UX design principles to ensure a visually appealing interface, simplifying accessibility to AI functionalities for bias detection and analysis",
+  //   description4:  
+  //   "Contributed to project documentation to ensure comprehensive documentation for future AI Tool volunteers",
+  //   description5:
+  //   "" 
 
-  },
+  // },
   {
     id: "tetra",
     job: "Software Developer",

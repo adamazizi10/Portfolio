@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/13.26358bbd.chunk.css","mappings":"AAAA,iBACI,aAAc,CACd,4BAA8B,CAC9B,cACF,CACF,OACE,cACF","sources":["components/design.css"],"sourcesContent":[".technology-name {\n    color: #4a4a4a;\n    font-family: Arial, sans-serif;\n    font-size: 14px;\n  }\n.fsize{\n  font-size: 50px;\n}\n"],"names":[],"sourceRoot":""}

@@ -170,7 +170,7 @@ const About = ({ isDarkMode }) => {
               <p className='aboutTextColour mb-0 technology-name'>PostgreSQL</p>
             </div>
             <div className='text-center mx-4'>
-              <img className='my-3' src="https://github.com/devicons/devicon/blob/v2.16.0/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="60" height="60" />
+              <img className='my-3' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="aws" width="60" height="60" />
               <p className='aboutTextColour mb-0 technology-name'>AWS</p>
             </div>
             <div className='text-center mx-4'>

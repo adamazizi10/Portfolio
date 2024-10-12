@@ -1,17 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.d97c36ac.css",
-    "main.js": "/static/js/main.8ba6c0ab.js",
+    "main.css": "/static/css/main.13a25b43.css",
+    "main.js": "/static/js/main.4acd6b5a.js",
+    "static/css/13.26358bbd.chunk.css": "/static/css/13.26358bbd.chunk.css",
+    "static/js/13.5b9e16df.chunk.js": "/static/js/13.5b9e16df.chunk.js",
+    "static/js/842.afa88274.chunk.js": "/static/js/842.afa88274.chunk.js",
+    "static/js/705.cd6d85a7.chunk.js": "/static/js/705.cd6d85a7.chunk.js",
+    "static/js/201.cb84d637.chunk.js": "/static/js/201.cb84d637.chunk.js",
+    "static/js/422.476308b5.chunk.js": "/static/js/422.476308b5.chunk.js",
+    "static/media/autolib3.png": "/static/media/autolib3.b702627f9943552deb8b.png",
+    "static/media/fuelfinder2.png": "/static/media/fuelfinder2.3ab034cdf206a38265bd.png",
     "static/media/face-detector4.png": "/static/media/face-detector4.25f24a18debc619e1109.png",
     "static/media/wristband1.png": "/static/media/wristband1.4ee513220a4228887be5.png",
+    "static/media/fuelfinder16.png": "/static/media/fuelfinder16.48f47e872dac1e245f2a.png",
     "static/media/game1.png": "/static/media/game1.924205ebd1aa5f2b9530.png",
     "static/media/Book1.png": "/static/media/Book1.fab218313fcb971d3684.png",
     "index.html": "/index.html",
-    "main.d97c36ac.css.map": "/static/css/main.d97c36ac.css.map",
-    "main.8ba6c0ab.js.map": "/static/js/main.8ba6c0ab.js.map"
+    "main.13a25b43.css.map": "/static/css/main.13a25b43.css.map",
+    "main.4acd6b5a.js.map": "/static/js/main.4acd6b5a.js.map",
+    "13.26358bbd.chunk.css.map": "/static/css/13.26358bbd.chunk.css.map",
+    "13.5b9e16df.chunk.js.map": "/static/js/13.5b9e16df.chunk.js.map",
+    "842.afa88274.chunk.js.map": "/static/js/842.afa88274.chunk.js.map",
+    "705.cd6d85a7.chunk.js.map": "/static/js/705.cd6d85a7.chunk.js.map",
+    "201.cb84d637.chunk.js.map": "/static/js/201.cb84d637.chunk.js.map",
+    "422.476308b5.chunk.js.map": "/static/js/422.476308b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d97c36ac.css",
-    "static/js/main.8ba6c0ab.js"
+    "static/css/main.13a25b43.css",
+    "static/js/main.4acd6b5a.js"
   ]
 }
