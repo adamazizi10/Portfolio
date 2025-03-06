@@ -71,7 +71,7 @@ const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, wi
               <li style={{ fontSize: '17px', marginTop: '7px' }}>I have graduated with a Bachelor's Degree in Software Engineering from Toronto Metropolitan University</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>I have hands-on experience as a Software Developer at TMU, Tetra, and Salumatics</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>During my experiences, I have contributed to the development of different applications, refining my skills in agile methodologies</li>
-              <li style={{ fontSize: '17px', marginTop: '7px' }}>I've also completed diverse projects using React.js, Node.js, Django, Python for scripting, web scraping, web development, machine learning, and data science</li>
+              <li style={{ fontSize: '17px', marginTop: '7px' }}>I've also completed diverse projects using React.js, Node.js, Django, Python for scripting, web scraping, and web development</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>I thrive in dynamic environments and I am always eager to learn new technologies and methodologies</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>In my free time outside of work, I find joy in engaging in sports such as soccer and basketball</li>
               <li style={{ fontSize: '17px', marginTop: '7px' }}>My passion for soccer drives me to stay well-informed about the sport by following current news and matches</li>
@@ -90,7 +90,7 @@ const Home = ({ theme, isDarkMode, isMediumScreen, isSmallScreen, windowSize, wi
               <li style={{ fontSize: '15px', marginTop: '7px' }}>I recently graduated with a Bachelor's Degree in Software Engineering from Toronto Metropolitan University (April 2024)</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}>I have hands-on experience as a Software Developer at TMU, Tetra, and Salumatics</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}>During my experiences, I have contributed to the development of applications, refining my skills in agile methodologies</li>
-              <li style={{ fontSize: '15px', marginTop: '7px' }}>I've also completed diverse projects using React.js, Node.js, Django, Python for scripting, web scraping, web development, machine learning, data science, and testing</li>
+              <li style={{ fontSize: '15px', marginTop: '7px' }}>I've also completed diverse projects using React.js, Node.js, Django, Python for scripting, web scraping, and web development</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}>I thrive in dynamic environments and am always eager to learn new technologies and methodologies</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}>In my free time outside of work, I find joy in engaging in sports such as soccer and basketball</li>
               <li style={{ fontSize: '15px', marginTop: '7px' }}> I'm very approachable and easy to talk to so feel free to reach out: <a style={{ 'color': '#3EDD8e' }} href='mailto:adamazizi101@gmail.com'>adamazizi101@gmail.com</a><br /><br /></li>
